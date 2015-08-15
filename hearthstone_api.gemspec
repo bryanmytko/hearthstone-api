@@ -6,10 +6,10 @@ require 'hearthstone_api/version'
 Gem::Specification.new do |spec|
   spec.name          = "hearthstone_api"
   spec.version       = HearthstoneApi::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Bryan Mytko"]
   spec.email         = ["bryanmytko@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{API Wrapper for hearthstoneapi.com}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,12 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
+
+  spec.add_dependency "httparty"
+  spec.add_dependency "json"
+  spec.add_dependency "dotenv"
 end
