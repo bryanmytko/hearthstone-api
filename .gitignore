@@ -12,3 +12,8 @@
 *.o
 *.a
 mkmf.log
+
+*.swo
+*.swp
+.DS_Store
+.env
