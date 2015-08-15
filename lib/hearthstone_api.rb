@@ -1,5 +1,9 @@
+require "httparty"
 require "hearthstone_api/version"
+require "hearthstone_api/configuration"
+require "hearthstone_api/connection"
 
 module HearthstoneApi
-  # Your code goes here...
+  include HTTParty
+  extend Configuration
 end
