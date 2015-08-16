@@ -1,6 +1,8 @@
 require "hearthstone_api"
 require "rspec"
 require "vcr"
+require "byebug"
+require "dotenv"
 
 VCR.configure do |c|
   c.cassette_library_dir = "spec/support/vcr_cassettes"
@@ -11,4 +13,5 @@ VCR.configure do |c|
 end
 
 RSpec.configure do |config|
+  Dotenv.load
 end
