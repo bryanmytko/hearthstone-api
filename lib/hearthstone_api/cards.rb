@@ -1,4 +1,4 @@
-godule HearthstoneApi
+module HearthstoneApi
   class Cards < BaseModel
     def all
       response = self.class.get "/cards"
