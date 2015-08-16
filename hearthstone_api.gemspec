@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Bryan Mytko"]
   spec.email         = ["bryanmytko@gmail.com"]
   spec.summary       = %q{API Wrapper for hearthstoneapi.com}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.description   = %q{hearthstoneapi.com}
+  spec.homepage      = "http://www.bryanmytko.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,14 +18,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "rake", "~> 10"
 
-  spec.add_development_dependency "rspec"
-  spec.add_development_dependency "vcr"
-  spec.add_development_dependency "webmock"
+  spec.add_development_dependency "rspec", "~> 3.3"
+  spec.add_development_dependency "vcr", "~> 2.9"
+  spec.add_development_dependency "webmock", "~> 1.8"
+  spec.add_development_dependency "byebug"
 
-  spec.add_dependency "httparty"
-  spec.add_dependency "json"
-  spec.add_dependency "dotenv"
+  spec.add_dependency "httparty", "~> 0.13"
+  spec.add_dependency "json", "~> 1.8"
+  spec.add_dependency "dotenv", "~>2.0"
 end
