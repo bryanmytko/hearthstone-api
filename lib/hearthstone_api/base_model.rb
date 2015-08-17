@@ -2,9 +2,11 @@ module HearthstoneApi
   require "hearthstone_api/request"
 
   class BaseModel
-    extend Request
+    include Request
 
-    def self.endpoint
+    private
+
+    def endpoint
       HearthstoneApi.endpoint
     end
   end
