@@ -1,7 +1,9 @@
 module HearthstoneApi
   module Request
     def get(path, options = {})
-      request(:get, path, options)
+      response = request(:get, path, options)
+      raise HearthstoneApi::ResponseError.new unless response.code == 200
+      return response
     end
 
     private
@@ -14,7 +16,7 @@ module HearthstoneApi
       case method
       when :get
         response = HearthstoneApi.get(
-          self.endpoint + path,
+          endpoint + path,
           headers: headers
         )
       else
