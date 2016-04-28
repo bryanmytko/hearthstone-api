@@ -13,6 +13,7 @@ module HearthstoneApi
     def reset
       self.endpoint = DEFAULT_ENDPOINT
       self.api_key = DEFAULT_API_KEY
+      raise HearthstoneApi::NoApiKeyError.new "No API key set." unless api_key
     end
 
     def configure
