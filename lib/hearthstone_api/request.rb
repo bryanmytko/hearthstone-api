@@ -20,7 +20,7 @@ module HearthstoneApi
           headers: headers
         )
       else
-        raise "That method is not supported."
+        raise HearthstoneApi::UnsupportedMethodError.new
       end
     end
   end
