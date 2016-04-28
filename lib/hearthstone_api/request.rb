@@ -12,12 +12,14 @@ module HearthstoneApi
       { "X-Mashape-Key" => HearthstoneApi.api_key }
     end
 
-    def request(method, path, options)
+    def request(method, path, options = {})
       case method
       when :get
+        options = { headers: headers, query: options }
+
         response = HearthstoneApi.get(
           endpoint + path,
-          headers: headers
+          options
         )
       else
         raise HearthstoneApi::UnsupportedMethodError.new
