@@ -1,7 +1,7 @@
 module HearthstoneApi
   class Cards < BaseModel
-    def all
-      get "/cards"
+    def all(options = {})
+      get "/cards", options
     end
   end
 end
