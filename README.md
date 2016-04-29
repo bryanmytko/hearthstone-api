@@ -18,9 +18,28 @@ Or install it yourself as:
 
     $ gem install hearthstone_api
 
-## Usage
+## Endpoints
 
-TODO: Write usage instructions here
+All endpoints available via [http://hearthstoneapi.com/](hearthstoneapi.com)
+
+Examples can be found here:
+
+### All Cards
+
+  cards = HearthstoneApi::Card.new
+  cards.all(attack: 12)
+
+  => {"Basic"=>[],
+    "Classic"=>
+      [{"cardId"=>"NEW1_030",
+        "name"=>"Deathwing",
+        "cardSet"=>"Classic",
+        "type"=>"Minion",
+        "rarity"=>"Legendary",
+        "cost"=>10,
+        "attack"=>12,
+        "health"=>12,
+        [...]
 
 ## Contributing
 
