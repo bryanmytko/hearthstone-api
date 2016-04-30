@@ -18,7 +18,7 @@ Or install it yourself as:
 
     $ gem install hearthstone_api
 
-Create a .env file and add your [https://market.mashape.com/omgvamp/hearthstone](API key)
+Create a .env file and add your [API Key](https://market.mashape.com/omgvamp/hearthstone)
 
     $ touch .env
 
