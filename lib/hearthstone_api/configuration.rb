@@ -4,7 +4,7 @@ module HearthstoneApi
     attr_accessor :api_key
 
     DEFAULT_ENDPOINT = "https://omgvamp-hearthstone-v1.p.mashape.com"
-    DEFAULT_API_KEY = ENV["DEFAULT_API_KEY"]
+    DEFAULT_API_KEY = ENV["HEARTHSTONE_API_KEY"]
 
     def self.extended(base)
       base.reset
