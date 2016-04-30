@@ -26,20 +26,22 @@ Examples:
 
 #### All Cards
 
-    cards = HearthstoneApi::Card.new
-    cards.all(attack: 12)
+```ruby
+cards = HearthstoneApi::Card.new
+cards.all(attack: 12)
 
-    => {"Basic"=>[],
-      "Classic"=>
-        [{"cardId"=>"NEW1_030",
-          "name"=>"Deathwing",
-          "cardSet"=>"Classic",
-          "type"=>"Minion",
-          "rarity"=>"Legendary",
-          "cost"=>10,
-          "attack"=>12,
-          "health"=>12,
-          [...]
+=> {"Basic"=>[],
+  "Classic"=>
+    [{"cardId"=>"NEW1_030",
+      "name"=>"Deathwing",
+      "cardSet"=>"Classic",
+      "type"=>"Minion",
+      "rarity"=>"Legendary",
+      "cost"=>10,
+      "attack"=>12,
+      "health"=>12,
+      [...]
+```
 
 ## Contributing
 
