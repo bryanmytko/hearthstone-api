@@ -33,6 +33,7 @@ All endpoints available via [http://hearthstoneapi.com/](hearthstoneapi.com)
 Examples:
 
 #### All Cards
+_N.B. Cards come back organized by the set they belong to_
 
 ```ruby
 cards = HearthstoneApi::Card.new
