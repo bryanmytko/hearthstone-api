@@ -61,5 +61,5 @@ cards.all(attack: 12)
 
 ## Development
 
-gem build hearthstone_api.gemspec
-gem install ./hearthstone_api-0.0.1.gem
+    gem build hearthstone_api.gemspec
+    gem install ./hearthstone_api-0.0.1.gem
