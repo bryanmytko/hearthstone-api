@@ -22,24 +22,24 @@ Or install it yourself as:
 
 All endpoints available via [http://hearthstoneapi.com/](hearthstoneapi.com)
 
-Examples can be found here:
+Examples:
 
-### All Cards
+#### All Cards
 
-  cards = HearthstoneApi::Card.new
-  cards.all(attack: 12)
+    cards = HearthstoneApi::Card.new
+    cards.all(attack: 12)
 
-  => {"Basic"=>[],
-    "Classic"=>
-      [{"cardId"=>"NEW1_030",
-        "name"=>"Deathwing",
-        "cardSet"=>"Classic",
-        "type"=>"Minion",
-        "rarity"=>"Legendary",
-        "cost"=>10,
-        "attack"=>12,
-        "health"=>12,
-        [...]
+    => {"Basic"=>[],
+      "Classic"=>
+        [{"cardId"=>"NEW1_030",
+          "name"=>"Deathwing",
+          "cardSet"=>"Classic",
+          "type"=>"Minion",
+          "rarity"=>"Legendary",
+          "cost"=>10,
+          "attack"=>12,
+          "health"=>12,
+          [...]
 
 ## Contributing
 
