@@ -53,6 +53,22 @@ cards.all(attack: 12)
       [...]
 ```
 
+#### Class Cards
+
+```ruby
+cards = HearthstoneApi::Card.new
+cards.classes("Paladin", cost: 2)
+
+=> [{"cardId"=>"OG_311",
+      "name"=>"A Light in the Darkness",
+      "cardSet"=>"Whispers of the Old Gods",
+      "type"=>"Spell",
+      "rarity"=>"Common",
+      "cost"=>2,
+      "text"=>"<b>Discover</b> a minion.\nGive it +1/+1.",
+      [...]
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/hearthstone_api/fork )
