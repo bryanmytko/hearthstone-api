@@ -1,0 +1,189 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/classes/paladin?cost=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 02 May 2016 18:41:02 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IlJMZ2dIeUVqTHRhSzQ1UnVKU1RzeVE9PSIsInZhbHVlIjoiRjFaNEJ5NXlTUTV1cmxOaSt4enJjbnJSOWZRTTVjRDZ2a0VQRlVrTE5XWkw5TngwY1pvVENoUkcxRzQydGY1WkFjZTVTWG1SRThpUmFtZGUwY2hMNnc9PSIsIm1hYyI6ImEwY2Q0OTJhNTkyMzIxOWFmMjVjNGJmZDBhMGMwMDZiNmZmY2NmZDUyZjA4NDI3YzI0ZTc0NGY1ODA3ZTgxYWYifQ%3D%3D;
+        expires=Mon, 02-May-2016 20:41:02 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IkRrcHkwNXRwQTNqZnhrNzdYSmdJSlE9PSIsInZhbHVlIjoibkUxUGtCeDNHMlNIdFwvMTNncHQ3QmVaXC9lQTZcL3E2c0tcL3oxekxUMU91Mmt5YmhCa1VLYnRoSUNYWUxpdXlnaStZbG5TWTlxMFhCOGhKdnhUaE9kSGdRPT0iLCJtYWMiOiJhZTk2OGFhNTVhODU2Yjg0NGM0NmIwYWY3YTVmNzI1ODRiMmIwYmM5NDUwNzRiYzA4NjkxMTBhODNiY2U5OGQyIn0%3D;
+        expires=Mon, 02-May-2016 20:41:02 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '42'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Class not found."}'
+    http_version: 
+  recorded_at: Mon, 02 May 2016 18:41:02 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/classes/paladin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 02 May 2016 18:42:47 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Im1BXC9LdU4zMEp6OWl2SzExQ3NaVW5nPT0iLCJ2YWx1ZSI6IkV4K1dPVzB1dXJzbjJvdDUrYmI2dDJRQ3dxb0dkNUJCQnVwKzl6aVU5MXpIMjFEWmhhUlNvRWNnMnJySzk3SUIxVXArOEEzdDBjNHg0VzRUd2dMbHp3PT0iLCJtYWMiOiJlNWQwYjFjMTFjODQ2YzlhODAyNGY5ZTYwZDdiNjRhNGZlY2UyZWI1YWMyNjgzZThmNDZlMzg4YTBkYTJhZjI4In0%3D;
+        expires=Mon, 02-May-2016 20:42:47 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IjZoWkp1RWlRK2NtRlV0ZTIxQmNiakE9PSIsInZhbHVlIjoiSVBCTFc3eFlwNWF4dnNDWEg2Y0N4WjBlTEs2UzBCSHViWURoWDZ4bmNZUVRFeVJXUjRneUQ1aUx0MHlmVUdZa0NyUlFxUUJZSWpIbVBLajAwdExKSHc9PSIsIm1hYyI6ImNmODVlM2MzMjhjZTNlNWM5MTJhYzI0YTdhNTQ1ZTU2M2RkODhhNmYwOGQxODYzNmRkNmMzMDY5YTdlMTg0NjUifQ%3D%3D;
+        expires=Mon, 02-May-2016 20:42:47 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '42'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Class not found."}'
+    http_version: 
+  recorded_at: Mon, 02 May 2016 18:42:47 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/classes/Paladin?cost=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 02 May 2016 18:46:51 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6ImdXeXpCU3p5NXh3c1JUeEJ2czl4UUE9PSIsInZhbHVlIjoiY1lWcVBncE9sSGhqWjlkYzcwZitQeEhHXC9oM0tNcm1nYmdJcHNYWEVPd0Y0R0V5VUR4d2o0OHEwbEFvOFNvQUkyV0NDOTRsaERaeXJcLzFIbzBacWlzUT09IiwibWFjIjoiMTBiZTdlODliYzI3NTUzZGNiMDI3YWE4YzIwYTcyNGFlMGU0NjU3NWQ1YTEzY2MxZDcyMjQ5MjgxYThhN2QyNiJ9;
+        expires=Mon, 02-May-2016 20:46:51 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IjN1ZEdNaUhcL0p0SDJRdk1tWERvQXlRPT0iLCJ2YWx1ZSI6Ikk1UGdYblRJY095Z3JJUlhxXC9ERGFzYVVQbm1ta0M4eTE0SmNETmFoTUxkY3ZFTFNTZEVMbzBsVTF5SUswRkVaS001MUV4aXlFUGp5TUszMytvTGE5UT09IiwibWFjIjoiYzVmNGEzZjcyZWViOGU4NTEwNGJlZjcxZTQxNjgzZTg0MGIwNjM0YTQ0MWRkODgxOWMxOTU5YmUyY2Q5Njc2ZSJ9;
+        expires=Mon, 02-May-2016 20:46:51 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"FP1_020","name":"Avenge","cardSet":"Naxxramas","type":"Spell","rarity":"Common","cost":1,"text":"<b>Secret:</b>
+        When one of your minions dies, give a random friendly minion +3/+2.","flavor":"Several
+        paladins have joined together to deliver justice under the name \"Justice
+        Force\".  Their lawyer talked them out of calling themselves the Justice League.","artist":"Zoltan
+        & Gabor","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked in
+        Frostwyrm Lair, in the Naxxramas adventure.","howToGetGold":"Crafting unlocked
+        in Frostwyrm Lair, in the Naxxramas adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/FP1_020.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FP1_020_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"CS2_087","name":"Blessing
+        of Might","cardSet":"Basic","type":"Spell","faction":"Neutral","rarity":"Free","cost":1,"text":"Give
+        a minion +3 Attack.","flavor":"\"As in, you MIGHT want to get out of my way.\"
+        - Toad Mackle, recently buffed.","artist":"Zoltan Boros","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 45.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_087.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_087_premium.gif","locale":"enUS"},{"cardId":"EX1_363","name":"Blessing
+        of Wisdom","cardSet":"Classic","type":"Spell","rarity":"Common","cost":1,"text":"Choose
+        a minion. Whenever it attacks, draw a card.","flavor":"Apparently with wisdom
+        comes the knowledge that you should probably be attacking every turn.","artist":"Chippy","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_363.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_363_premium.gif","locale":"enUS"},{"cardId":"AT_073","name":"Competitive
+        Spirit","cardSet":"The Grand Tournament","type":"Spell","rarity":"Rare","cost":1,"text":"<b>Secret:</b>
+        When your turn starts, give your minions +1/+1.","flavor":"Competition can
+        be an inspiration to improve oneself.  Or kill all the competitors.","artist":"Jim
+        Nelson","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_073.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_073_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"EX1_130a","name":"Defender","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Common","cost":1,"attack":2,"health":1,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_130a.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_130a_premium.gif","locale":"enUS"},{"cardId":"OG_223","name":"Divine
+        Strength","cardSet":"Whispers of the Old Gods","type":"Spell","rarity":"Common","cost":1,"text":"Give
+        a minion +1/+2.","flavor":"Every year a few paladins get disqualified from
+        the Westfall weight lifting championship for using Divine Strength.","artist":"Eva
+        Wilderman","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_223.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_223_premium.gif","locale":"enUS"},{"cardId":"EX1_132","name":"Eye
+        for an Eye","cardSet":"Classic","type":"Spell","faction":"Neutral","rarity":"Common","cost":1,"text":"<b>Secret:</b>
+        When your hero takes damage, deal that much damage to the enemy hero.","flavor":"Justice
+        sometimes takes the form of a closed fist into a soft cheek.","artist":"James
+        Ryman","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_132.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_132_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"EX1_371","name":"Hand
+        of Protection","cardSet":"Basic","type":"Spell","faction":"Neutral","rarity":"Free","cost":1,"text":"Give
+        a minion <b>Divine Shield</b>.","flavor":"This spell has been renamed so many
+        times, even paladins don\u2019t know what it should be called anymore.","artist":"Clint
+        Langley","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked at
+        Level 1.","howToGetGold":"Unlocked at Level 23.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_371.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_371_premium.gif","locale":"enUS"},{"cardId":"EX1_360","name":"Humility","cardSet":"Basic","type":"Spell","faction":"Neutral","rarity":"Free","cost":1,"text":"Change
+        a minion''s Attack to 1.","flavor":"This card makes something really damp.  Oh
+        wait.  That''s \"Humidity.\"","artist":"Daren Bader","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        at Level 6.","howToGetGold":"Unlocked at Level 28.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_360.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_360_premium.gif","locale":"enUS"},{"cardId":"CS2_091","name":"Light''s
+        Justice","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":4,"flavor":"Prince
+        Malchezaar was a collector of rare weapons. He''d animate them and have them
+        dance for him.","artist":"Glenn Rane","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 36.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_091.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_091_premium.gif","locale":"enUS"},{"cardId":"EX1_130","name":"Noble
+        Sacrifice","cardSet":"Classic","type":"Spell","faction":"Neutral","rarity":"Common","cost":1,"text":"<b>Secret:</b>
+        When an enemy attacks, summon a 2/1 Defender as the new target.","flavor":"We
+        will always remember you, \"Defender!\"","artist":"Zoltan & Gabor","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_130.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_130_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"EX1_136","name":"Redemption","cardSet":"Classic","type":"Spell","faction":"Neutral","rarity":"Common","cost":1,"text":"<b>Secret:</b>
+        When one of your minions dies, return it to life with 1 Health.","flavor":"I
+        am not sure how you get demptioned the first time.  It\u2019s a mystery!","artist":"Ittoku","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_136.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_136_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"EX1_379","name":"Repentance","cardSet":"Classic","type":"Spell","faction":"Neutral","rarity":"Common","cost":1,"text":"<b>Secret:</b>
+        After your opponent plays a minion, reduce its Health to 1.","flavor":"Repentance
+        often comes in the moment before obliteration. Curious.","artist":"Gonzalo
+        Ordonez","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_379.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_379_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"LOE_027","name":"Sacred
+        Trial","cardSet":"The League of Explorers","type":"Spell","rarity":"Common","cost":1,"text":"<b>Secret:</b>
+        After your opponent has at least 3 minions and plays another, destroy it.","flavor":"You
+        have chosen poorly.","artist":"Zoltan Boros","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        in the Temple of Orsis, in the League of Explorers adventure.","howToGetGold":"Crafting
+        unlocked in the Temple of Orsis, in the League of Explorers adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_027.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_027_premium.gif","locale":"enUS","mechanics":[{"name":"Secret"}]},{"cardId":"OG_221","name":"Selfless
+        Hero","cardSet":"Whispers of the Old Gods","type":"Minion","rarity":"Rare","cost":1,"attack":2,"health":1,"text":"<b>Deathrattle:</b>
+        Give a random friendly minion <b>Divine Shield</b>.","flavor":"\"Don''t worry
+        about me\u2026 I''ll just be here... under these tentacles.\"","artist":"Rafael
+        Zanchetin","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_221.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_221_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_006a","name":"Silver
+        Hand Murloc","cardSet":"Whispers of the Old Gods","type":"Minion","cost":1,"attack":1,"health":1,"artist":"Andrew
+        Hou","race":"Murloc","playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_006a.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_006a_premium.gif","locale":"enUS"},{"cardId":"CS2_101t","name":"Silver
+        Hand Recruit","cardSet":"Basic","type":"Minion","rarity":"Free","cost":1,"attack":1,"health":1,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_101t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_101t_premium.gif","locale":"enUS"},{"cardId":"OG_006","name":"Vilefin
+        Inquisitor","cardSet":"Whispers of the Old Gods","type":"Minion","rarity":"Epic","cost":1,"attack":1,"health":3,"text":"<b>Battlecry:</b>
+        Your Hero Power becomes ''Summon a   1/1 Murloc.''","flavor":"Nobody expects
+        the Vilefin Inquisition!","artist":"Jerry Mascho","collectible":true,"race":"Murloc","playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_006.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_006_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]}]'
+    http_version: 
+  recorded_at: Mon, 02 May 2016 18:46:51 GMT
+recorded_with: VCR 2.9.3
