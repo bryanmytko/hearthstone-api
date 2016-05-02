@@ -1,5 +1,4 @@
-<p align="center">![logo](http://i.imgur.com/GisaPGO.png)
-</p>
+![logo](http://i.imgur.com/GisaPGO.png)
 
 # HearthstoneApi
 
