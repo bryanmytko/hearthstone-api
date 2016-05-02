@@ -1,3 +1,6 @@
+<p align="center">![logo](http://i.imgur.com/GisaPGO.png)
+</p>
+
 # HearthstoneApi
 
 API Wrapper for hearthstoneapi.com
