@@ -7,5 +7,9 @@ module HearthstoneApi
     def classes(klass, options = {})
       get "/cards/classes/#{klass.capitalize}", options
     end
+
+    def card(name_or_id, options = {})
+      get "/cards/#{name_or_id}", options
+    end
   end
 end
