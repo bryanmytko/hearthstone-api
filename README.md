@@ -71,6 +71,34 @@ cards.classes("Paladin", cost: 2)
       [...]
 ```
 
+#### Single Card
+_This endpoint accepts name or card ID_
+
+```ruby
+cards = HearthstoneApi::Card.new
+cards.single("Ysera", locale: "jaJP")
+
+=> [{"cardId"=>"EX1_572",
+      "name"=>"イセラ",
+      "cardSet"=>"Classic",
+      "type"=>"Minion",
+      "faction"=>"Neutral",
+      "rarity"=>"Legendary",
+      "cost"=>9,
+      [...]
+
+cards = HearthstoneApi::Card.new
+cards.single("EX1_572", locale: "jaJP")
+
+=> [{"cardId"=>"EX1_572",
+      "name"=>"イセラ",
+      "cardSet"=>"Classic",
+      "type"=>"Minion",
+      "faction"=>"Neutral",
+      "rarity"=>"Legendary",
+      "cost"=>9,
+      [...]
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/hearthstone_api/fork )
