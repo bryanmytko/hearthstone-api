@@ -48,15 +48,15 @@ describe HearthstoneApi::Cards do
       let(:locale) { "jaJP" }
 
       it "returns the card" do
-        VCR.use_cassette("hearthstone_api/cards/card/id") do
-          query = cards.card(id)
+        VCR.use_cassette("hearthstone_api/cards/single/id") do
+          query = cards.single(id)
           expect(query.first["cardId"]).to eq(id)
         end
       end
 
       it "accepts options" do
-        VCR.use_cassette("hearthstone_api/cards/card/id/options") do
-          query = cards.card(id, locale: locale)
+        VCR.use_cassette("hearthstone_api/cards/single/id/options") do
+          query = cards.single(id, locale: locale)
           expect(query.first["locale"]).to eq(locale)
         end
       end
@@ -68,15 +68,15 @@ describe HearthstoneApi::Cards do
       let(:locale_name) { "イセラ" }
 
       it "returns the card" do
-        VCR.use_cassette("hearthstone_api/cards/card/name") do
-          query = cards.card(name)
+        VCR.use_cassette("hearthstone_api/cards/single/name") do
+          query = cards.single(name)
           expect(query.first["name"]).to eq(name)
         end
       end
 
       it "accepts options" do
-        VCR.use_cassette("hearthstone_api/cards/card/id/options") do
-          query = cards.card(name, locale: locale)
+        VCR.use_cassette("hearthstone_api/cards/single/id/options") do
+          query = cards.single(name, locale: locale)
           expect(query.first["name"]).to eq(locale_name)
         end
       end
