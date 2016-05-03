@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Ysera
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 03 May 2016 13:54:46 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Ik1IXC8xQUtGditZRFNPdUdnQjVYaE1nPT0iLCJ2YWx1ZSI6IjdEYTZcL2s4MGZkNk9TaHlUa3pORE56b3J0cUNiMmxxNVZBV3hcL2J2Yng3UWlJVk91TVwveTRpanAzZ1pkTngyMGVyRVRsSWJLTm5GamNMUDVPek1kb3R3PT0iLCJtYWMiOiI2Njk5MjE4ODc0ODFlNjE2MTFkOWJmMjNiZjE0YjRmNDY1ZTc5ZWZkZmYzNDY4MjY0MGViOTIyNzhkMDY2YTgyIn0%3D;
+        expires=Tue, 03-May-2016 15:54:46 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IkNSc0xVMTRPVWFhOTUzSDZMSWdndnc9PSIsInZhbHVlIjoid0J4dmdCcG5vYmZKa0NmaVwvYkQ1Z1hSU1FuOGJRWlh1NHNmXC95eXdmTmlmXC9QajFyc1dReU5vNUxuVjJ4TWp0ekloK1VsbnloWVREVDF0K1g1Sml4Z3c9PSIsIm1hYyI6IjA5MTg0YTkzZDcyYTYzZTE1NmM5ZTFjMWI0MGVhZTM3Y2Q4ODFlMWQ1MDM1NGU4MzQ0NzNhMjAxMjQ2ZGY2OWQifQ%3D%3D;
+        expires=Tue, 03-May-2016 15:54:46 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '594'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"EX1_572","name":"Ysera","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":4,"health":12,"text":"At
+        the end of your turn, add a Dream Card to your hand.","flavor":"Ysera rules
+        the Emerald Dream.  Which is some kind of green-mirror-version of the real
+        world, or something?","artist":"Gabor Szikszai","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_572.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_572_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Tue, 03 May 2016 13:54:46 GMT
+recorded_with: VCR 2.9.3

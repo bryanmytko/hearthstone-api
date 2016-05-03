@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/EX1_572?locale=jaJP
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 03 May 2016 13:54:45 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6ImdPQTVVWHUzcngxTUFwUlJRNnpNZGc9PSIsInZhbHVlIjoiVUxBYW9RU1lvK2Z1czNKZ2RyZDJnVXlhQ3daTklsa0VWbUk1NWV5ck8wVFhwM3BuM2plN3RVd1lZYVExQ3I3d2R6WFRFR2xoeldadHpUNldEZXdqalE9PSIsIm1hYyI6ImI0ZmM0N2M5ZmRjMDFmYWRlOWNlYTg1NWUyZGU2ZjQyMzcwZTU3MzUzMjk1YzJjZmVjNWE5NzdjZTU4OGFmOWYifQ%3D%3D;
+        expires=Tue, 03-May-2016 15:54:45 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IkQ4MVVYbTk4VjlXQTdlZ05hWm9qbEE9PSIsInZhbHVlIjoiK1wvVzkwNTZYOWRuQlB0ZnVFXC9cL3hDcXF0NURuaUp6TlhDamYwWmNOTnRYblRLNG1oMFlvaVpsenpONVJjcUZPbGdBSGFYZkxreTdhclQ5QzBZMVlWVlE9PSIsIm1hYyI6IjRjZDc4YWNlYzE4YjAwNzlhY2IyODAwYTZhZmEwYzQ1NTJmZGZjMmEwNzY5YzYzYmZkZDlkNTdiYWQ2Njc2MDgifQ%3D%3D;
+        expires=Tue, 03-May-2016 15:54:45 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '954'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"EX1_572","name":"\u30a4\u30bb\u30e9","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":4,"health":12,"text":"\u81ea\u5206\u306e\u30bf\u30fc\u30f3\u306e\u7d42\u4e86\u6642\n\u5922\u30ab\u30fc\u30c91\u679a\u3092\n\u81ea\u5206\u306e\u624b\u672d\u306b\u8ffd\u52a0\u3059\u308b\u3002","flavor":"\u30a4\u30bb\u30e9\u306f\u30a8\u30e1\u30e9\u30eb\u30c9\u30fb\u30c9\u30ea\u30fc\u30e0\u3092\u6cbb\u3081\u3066\u308b\u3002\u3044\u3063\u305f\u3044\u3069\u3093\u306a\u5834\u6240\u306a\u3093\u3060\u308d\u3046\u306a\uff1f\u4f55\u3082\u304b\u3082\u7dd1\u8272\u306b\u306a\u3063\u305f\u93e1\u306e\u4e2d\u307f\u305f\u3044\u306a\u3068\u3053\u304b\uff1f","artist":"Gabor
+        Szikszai","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_572.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_572_premium.gif","locale":"jaJP"}]'
+    http_version: 
+  recorded_at: Tue, 03 May 2016 13:54:45 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Ysera?locale=jaJP
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 03 May 2016 13:54:46 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IlZmcjFicncxRVZjdzRCU2ZBT0dTUFE9PSIsInZhbHVlIjoiUEw4Y0ticzZIN3ZcL3dFb1lqaXFLSWttbmdJZTlXbVpXaDlCXC9MQ2pTeUVJYkhncTRJdmxlSVZ6b0xmcFZxSEZsenhIdXBlZWl2ckpLUnhYbjdMUHVqdz09IiwibWFjIjoiZjg0MGUzNmVkYTFkNTdiM2Y2ZDAxOTliNDhmM2NkYmE5MTRmMTA0OTIzYzQ2ZWFiMTdjYTcwMzIzYWE0YWZjNCJ9;
+        expires=Tue, 03-May-2016 15:54:46 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6InhUbDRcL1F5Y0syQjRidDd0YVM1cU1nPT0iLCJ2YWx1ZSI6InpzMjJUekRWYXpBYURDbHVTRWVOVVVER3pxNkowOVJObzRJNFFkMHFIZU02MXJZcjFPMmVsc2kyNmtQSGJrWDNzOVVjNWRLUzBSZUtndGNLR3VNTWV3PT0iLCJtYWMiOiI3MjAzMjY2MTU1ZDMxY2E4ZTQ0ZDc3ZThiZmYxZDg5MTJiMWMxOTI5Njc2MzRlYzMxZTRmMjczOGY5Y2Q5OGNiIn0%3D;
+        expires=Tue, 03-May-2016 15:54:46 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '954'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"EX1_572","name":"\u30a4\u30bb\u30e9","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":4,"health":12,"text":"\u81ea\u5206\u306e\u30bf\u30fc\u30f3\u306e\u7d42\u4e86\u6642\n\u5922\u30ab\u30fc\u30c91\u679a\u3092\n\u81ea\u5206\u306e\u624b\u672d\u306b\u8ffd\u52a0\u3059\u308b\u3002","flavor":"\u30a4\u30bb\u30e9\u306f\u30a8\u30e1\u30e9\u30eb\u30c9\u30fb\u30c9\u30ea\u30fc\u30e0\u3092\u6cbb\u3081\u3066\u308b\u3002\u3044\u3063\u305f\u3044\u3069\u3093\u306a\u5834\u6240\u306a\u3093\u3060\u308d\u3046\u306a\uff1f\u4f55\u3082\u304b\u3082\u7dd1\u8272\u306b\u306a\u3063\u305f\u93e1\u306e\u4e2d\u307f\u305f\u3044\u306a\u3068\u3053\u304b\uff1f","artist":"Gabor
+        Szikszai","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_572.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_572_premium.gif","locale":"jaJP"}]'
+    http_version: 
+  recorded_at: Tue, 03 May 2016 13:54:46 GMT
+recorded_with: VCR 2.9.3
