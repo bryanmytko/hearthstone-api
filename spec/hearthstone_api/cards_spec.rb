@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe HearthstoneApi::Cards do
-  let(:cards) { described_class.new }
+  let(:cards) { described_class }
 
   describe "all cards" do
     let(:option) { "attack" }
