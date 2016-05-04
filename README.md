@@ -139,6 +139,7 @@ HearthstoneApi::Info.all
           "Credits",
           "Naxxramas",
         [...]
+```
 
 ## Contributing
 
