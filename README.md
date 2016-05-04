@@ -113,7 +113,32 @@ HearthstoneApi::Cardbacks.all
         "http://wow.zamimg.com/images/hearthstone/backs/animated/Card_Back_Default.gif",
       "sortCategory"=>"1",
       "sortOrder"=>"1",
+      [...]
 ```
+
+#### Info
+
+```ruby
+HearthstoneApi::Info.all
+
+=> {"patch"=>"5.0.0.12574",
+      "classes"=>
+        ["Druid",
+          "Hunter",
+          "Mage",
+          "Paladin",
+          "Priest",
+          "Rogue",
+          "Shaman",
+          "Warlock",
+          "Warrior",
+          "Dream"],
+      "sets"=>
+        ["Basic",
+          "Classic",
+          "Credits",
+          "Naxxramas",
+        [...]
 
 ## Contributing
 
