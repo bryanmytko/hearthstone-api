@@ -39,7 +39,7 @@ Examples:
 _N.B. Cards come back organized by the set they belong to_
 
 ```ruby
-cards = HearthstoneApi::Card.all(attack: 12)
+HearthstoneApi::Card.all(attack: 12)
 
 => {"Basic"=>[],
   "Classic"=>
@@ -57,7 +57,7 @@ cards = HearthstoneApi::Card.all(attack: 12)
 #### Class Cards
 
 ```ruby
-cards = HearthstoneApi::Card.classes("Paladin", cost: 2)
+HearthstoneApi::Card.classes("Paladin", cost: 2)
 
 => [{"cardId"=>"OG_311",
       "name"=>"A Light in the Darkness",
@@ -84,7 +84,7 @@ HearthstoneApi::Card.single("Ysera", locale: "jaJP")
       "cost"=>9,
       [...]
 
-cards = HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
+HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
 
 => [{"cardId"=>"EX1_572",
       "name"=>"イセラ",
@@ -94,10 +94,12 @@ cards = HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
       "rarity"=>"Legendary",
       "cost"=>9,
       [...]
+```
 
 #### Card Backs
 
-cardbacks = HearthstoneApi::Cardbacks.all
+```ruby
+HearthstoneApi::Cardbacks.all
 
 => [{"cardBackId"=>"0",
       "name"=>"Classic",
@@ -111,6 +113,7 @@ cardbacks = HearthstoneApi::Cardbacks.all
         "http://wow.zamimg.com/images/hearthstone/backs/animated/Card_Back_Default.gif",
       "sortCategory"=>"1",
       "sortOrder"=>"1",
+```
 
 ## Contributing
 
