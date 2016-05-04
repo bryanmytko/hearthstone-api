@@ -39,8 +39,7 @@ Examples:
 _N.B. Cards come back organized by the set they belong to_
 
 ```ruby
-cards = HearthstoneApi::Card.new
-cards.all(attack: 12)
+cards = HearthstoneApi::Card.all(attack: 12)
 
 => {"Basic"=>[],
   "Classic"=>
@@ -58,8 +57,7 @@ cards.all(attack: 12)
 #### Class Cards
 
 ```ruby
-cards = HearthstoneApi::Card.new
-cards.classes("Paladin", cost: 2)
+cards = HearthstoneApi::Card.classes("Paladin", cost: 2)
 
 => [{"cardId"=>"OG_311",
       "name"=>"A Light in the Darkness",
@@ -75,8 +73,7 @@ cards.classes("Paladin", cost: 2)
 _This endpoint accepts name or card ID_
 
 ```ruby
-cards = HearthstoneApi::Card.new
-cards.single("Ysera", locale: "jaJP")
+HearthstoneApi::Card.single("Ysera", locale: "jaJP")
 
 => [{"cardId"=>"EX1_572",
       "name"=>"イセラ",
@@ -87,8 +84,7 @@ cards.single("Ysera", locale: "jaJP")
       "cost"=>9,
       [...]
 
-cards = HearthstoneApi::Card.new
-cards.single("EX1_572", locale: "jaJP")
+cards = HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
 
 => [{"cardId"=>"EX1_572",
       "name"=>"イセラ",
@@ -98,6 +94,23 @@ cards.single("EX1_572", locale: "jaJP")
       "rarity"=>"Legendary",
       "cost"=>9,
       [...]
+
+#### Card Backs
+
+cardbacks = HearthstoneApi::Cardbacks.all
+
+=> [{"cardBackId"=>"0",
+      "name"=>"Classic",
+      "description"=>"The only card back you’ll ever need.",
+      "source"=>"startup",
+      "sourceDescription"=>"Default",
+      "enabled"=>true,
+      "img"=>
+        "http://wow.zamimg.com/images/hearthstone/backs/original/Card_Back_Default.png",
+      "imgAnimated"=>
+        "http://wow.zamimg.com/images/hearthstone/backs/animated/Card_Back_Default.gif",
+      "sortCategory"=>"1",
+      "sortOrder"=>"1",
 
 ## Contributing
 
