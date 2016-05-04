@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/info
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 May 2016 19:58:55 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6ImNWWEs0MFFPeG5WeTBzTUdaOElXRUE9PSIsInZhbHVlIjoidTZpRkkxYVZ4Z3RZVFwvXC92MWVySkJNTDZpWStPNUY2ZkI0MlJUTnFGcVVoekNHRHl3Y3JlXC9uQ0JTdmJwXC9ZK1pzYWMxWE5SYytSaXlJT3FpTkJNeFlBPT0iLCJtYWMiOiJlY2U2M2RkYzNkODVjYmNjODRjMzk5NmRiODE4Y2VkMDgwMmE0NDBhZWQ2OWZjMzVlOWIyMDFmNWY2MzNhNjg5In0%3D;
+        expires=Wed, 04-May-2016 21:58:55 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImFIa1F0N1U1XC9rYk1hK1ZyclVXUzBRPT0iLCJ2YWx1ZSI6IjBKZTlib3VrUVh2SWpmTzRNa3puNjdhTFlNRjFNeUg1aGNvSTVHdjJpa3FDNU9mYlYzVk5IY01oS0lCU0NYWm84M0FwbTZ1OWJDTStWa2hXNWRIdW1RPT0iLCJtYWMiOiI3MDYwNGQxZWY2OGZkNTVkZDdkZWI2MWYxNTEzNGQ1MzU0YTgyNWZhYzkzNDExYjRhYjcwMjRkNjliZDNhMTBmIn0%3D;
+        expires=Wed, 04-May-2016 21:58:55 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '715'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"patch":"5.0.0.12574","classes":["Druid","Hunter","Mage","Paladin","Priest","Rogue","Shaman","Warlock","Warrior","Dream"],"sets":["Basic","Classic","Credits","Naxxramas","Slush","Goblins
+        vs Gnomes","Missions","Promo","Reward","System","Blackrock Mountain","Hero
+        Skins","Tavern Brawl","The Grand Tournament","The League of Explorers","Whispers
+        of the Old Gods"],"types":["Hero","Minion","Spell","Enchantment","Weapon","Hero
+        Power"],"factions":["Horde","Alliance","Neutral"],"qualities":["Free","Common","Rare","Epic","Legendary"],"races":["Demon","Dragon","Mech","Murloc","Beast","Pirate","Totem"],"locales":["deDE","enGB","enUS","esES","esMX","frFR","itIT","koKR","plPL","ptBR","ruRU","zhCN","zhTW","jaJP","thTH"]}'
+    http_version: 
+  recorded_at: Wed, 04 May 2016 19:58:55 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/info?locale=jaJP
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 May 2016 20:00:22 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IjFNRWFlMm1sWGd0NU1oZ2d4Z2FkUlE9PSIsInZhbHVlIjoiZWorV0dwSTlSeTZJVVdGUTJcL2R2Uno3MXZXYWtWU05Ccjh1NFF2V2NJOXlCb1ZBOFlPWU5wUjRENWF6a1wvbHlFSGQ5VVgxVytHZmgxWUtIUWd6YlB1QT09IiwibWFjIjoiNGJkYmQ1NDdmYTQ3YTZiMDlhNzhhMDU5NTY4NGI4YzM1NWRlZGFiMDA5YzI2ZTMwNDZjMDlhNWFkZTVmNTRjMSJ9;
+        expires=Wed, 04-May-2016 22:00:22 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImhZNFJRR05NaXE1MG1yb1QxcWlBUUE9PSIsInZhbHVlIjoiTjcrbkE4XC9NNERDWTNXVUdPWWpSbHB0THd4aEh3WGxPQjh4SUp0XC9hU3BhaG80YUNSTmR1RVVIMEFibEVOaWRhbjZDV3dNVFlwaDJONGlpQUYyR1dZQT09IiwibWFjIjoiMjFlNjQyNGQ3ZTA1NjIxMTg2NjM1YzhlMTgxOGNmOTQxY2I4NjI0ZDk3YTMxNDM5ZjYyNDhiMTE4NGFjNDQ0MiJ9;
+        expires=Wed, 04-May-2016 22:00:22 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '1492'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"patch":"5.0.0.12574","classes":["\u30c9\u30eb\u30a4\u30c9","\u30cf\u30f3\u30bf\u30fc","\u30e1\u30a4\u30b8","\u30d1\u30e9\u30c7\u30a3\u30f3","\u30d7\u30ea\u30fc\u30b9\u30c8","\u30ed\u30fc\u30b0","\u30b7\u30e3\u30fc\u30de\u30f3","\u30a6\u30a9\u30fc\u30ed\u30c3\u30af","\u30a6\u30a9\u30ea\u30a2\u30fc","Dream"],"sets":["\u57fa\u672c","\u30af\u30e9\u30b7\u30c3\u30af","\u30b9\u30bf\u30c3\u30d5\u30ed\u30fc\u30eb","\u30ca\u30af\u30b9\u30e9\u30fc\u30de\u30b9","\u30b9\u30e9\u30c3\u30b7\u30e5","\u30b4\u30d6\u30ea\u30f3vs\u30ce\u30fc\u30e0","Missions","\u30d7\u30ed\u30e2","\u5831\u916c","System","\u30d6\u30e9\u30c3\u30af\u30ed\u30c3\u30af","Hero
+        Skins","\u9152\u5834\u306e\u55a7\u5629","\u30b0\u30e9\u30f3\u30c9\u30fb\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8","\u30ea\u30fc\u30b0\u30fb\u30aa\u30d6\u30fb\u30a8\u30af\u30b9\u30d7\u30ed\u30fc\u30e9\u30fc","\u65e7\u795e\u306e\u3055\u3055\u3084\u304d"],"types":["\u30d2\u30fc\u30ed\u30fc","\u30df\u30cb\u30aa\u30f3","\u546a\u6587","\u9b54\u529b\u4ed8\u4e0e","\u6b66\u5668","\u30d2\u30fc\u30ed\u30fc\u30d1\u30ef\u30fc"],"factions":["Horde","Alliance","Neutral"],"qualities":["\u7121\u6599","\u30b3\u30e2\u30f3","\u30ec\u30a2","\u30a8\u30d4\u30c3\u30af","\u30ec\u30b8\u30a7\u30f3\u30c9"],"races":["\u60aa\u9b54","\u30c9\u30e9\u30b4\u30f3","\u30e1\u30ab","\u30de\u30fc\u30ed\u30c3\u30af","\u7363","\u6d77\u8cca","\u30c8\u30fc\u30c6\u30e0"],"locales":["deDE","enGB","enUS","esES","esMX","frFR","itIT","koKR","plPL","ptBR","ruRU","zhCN","zhTW","jaJP","thTH"]}'
+    http_version: 
+  recorded_at: Wed, 04 May 2016 20:00:22 GMT
+recorded_with: VCR 2.9.3
