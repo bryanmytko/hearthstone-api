@@ -175,6 +175,19 @@ HearthstoneApi::Cards.factions("Horde")
       [...]
 ```
 
+#### Search
+
+```ruby
+HearthstoneApi::Cards.search("Onyx")
+
+=> [{"cardId"=>"BRMA17_3",
+      "name"=>"Onyxia",
+      "cardSet"=>"Blackrock Mountain",
+      "type"=>"Hero",
+      "health"=>15,
+      [...]
+```
+
 #### Card Backs
 
 ```ruby
