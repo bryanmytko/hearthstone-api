@@ -1,5 +1,7 @@
 module HearthstoneApi
   module Request
+    require "uri"
+
     def get(path, options = {})
       response = request(:get, path, options)
       raise HearthstoneApi::ResponseError.new unless response.code == 200
@@ -18,7 +20,7 @@ module HearthstoneApi
         options = { headers: headers, query: options }
 
         response = HearthstoneApi.get(
-          endpoint + path,
+          URI.encode(endpoint + path),
           options
         )
       else

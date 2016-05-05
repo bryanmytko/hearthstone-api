@@ -111,6 +111,12 @@ HearthstoneApi::Cards.type("Weapon")
       [...]
 ```
 
+#### Sets
+
+```ruby
+HearthstoneApi::Cards.sets("Blackrock Mountain")
+```
+
 #### Card Backs
 
 ```ruby
