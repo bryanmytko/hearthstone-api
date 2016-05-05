@@ -158,6 +158,23 @@ HearthstoneApi::Cards.qualities("Legendary")
       [...]
 ```
 
+#### Factions
+
+```ruby
+HearthstoneApi::Cards.factions("Horde")
+
+=> [{"cardId"=>"CS2_189",
+      "name"=>"Elven Archer",
+      "cardSet"=>"Basic",
+      "type"=>"Minion",
+      "faction"=>"Horde",
+      "rarity"=>"Free",
+      "cost"=>1,
+      "attack"=>1,
+      "health"=>1,
+      [...]
+```
+
 #### Card Backs
 
 ```ruby
