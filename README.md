@@ -176,6 +176,7 @@ HearthstoneApi::Cards.factions("Horde")
 ```
 
 #### Search
+_Returns cards by partial name_
 
 ```ruby
 HearthstoneApi::Cards.search("Onyx")
