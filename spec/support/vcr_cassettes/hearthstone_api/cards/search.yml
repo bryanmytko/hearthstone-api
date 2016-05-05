@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/search/Ony
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 17:26:08 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IlVxRVN2N2N0bm1ROHk5YUwwcmxXSHc9PSIsInZhbHVlIjoidXpmeVZKRStkT3krMXJqcEUxZU00YWR1R0FVbFlVaFlXMm9sRHVrb3g2dGNFQUZFOUZ5RXI2UFY2V3RFM0dBc2hkZzA3Mys4YnRaVCt0NENES3FiSHc9PSIsIm1hYyI6IjMzM2I3MDlhNjRmMGY3MzJmNWUzMGNhNDYxZDdhYjhkYmM1ZGRmZDA3MDk1ZGUyODNhMGU1MWI3YzM5NDI0YzIifQ%3D%3D;
+        expires=Thu, 05-May-2016 19:26:08 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImVaYkxUblhLNGFHa3gyeG9rVXBiT0E9PSIsInZhbHVlIjoiVTlcL1NMSDRCTXdqWlwvaGRVNStEa0JSTFFGM1Y1eU1GQXNwVE1UR3dPTVpFUERla012UlNPSnRhUkZ6TytyaDRFSDRDbTBSVGI3RjU0TkFhNDBYRGZwUT09IiwibWFjIjoiZjA2YmYxZDQxYzQ5M2E2NjQ2NDBiOWU0Yjk2YWM2MjdkNWVkZTZmMjhkNjRhZTk0MWM0ODJhY2JhZTc4MWJjNyJ9;
+        expires=Thu, 05-May-2016 19:26:08 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '1735'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"AT_117e","name":"Ceremony","cardSet":"The Grand Tournament","type":"Enchantment","text":"+2/+2.","locale":"enUS"},{"cardId":"BRMA17_3","name":"Onyxia","cardSet":"Blackrock
+        Mountain","type":"Hero","health":15,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_3.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_3_premium.gif","locale":"enUS"},{"cardId":"BRMA17_3H","name":"Onyxia","cardSet":"Blackrock
+        Mountain","type":"Hero","health":30,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_3H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_3H_premium.gif","locale":"enUS"},{"cardId":"BRMA17_9","name":"Onyxiclaw","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":2,"attack":2,"durability":6,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_9.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_9_premium.gif","locale":"enUS"},{"cardId":"EX1_562","name":"Onyxia","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":8,"health":8,"text":"<b>Battlecry:</b>
+        Summon 1/1 Whelps until your side of the battlefield is full.","flavor":"Onyxia
+        long manipulated the Stormwind Court by disguising herself as Lady Katrana
+        Prestor.   You would have thought that the giant wings and scales would have
+        been a giveaway.","artist":"Dany Orizio","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_562.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_562_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 17:26:08 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/search/Onyx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 17:26:59 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6InNIOFlwbzlNZ3VHc2JsYSt1aXgwS3c9PSIsInZhbHVlIjoiZFVQZHFMUldlQXNWdEhFcUtxUlkyVDd5SmR2emlDMnlKbDY0UjFoN2dUWkdUUDZLVmJnNnFNM2VqVFNzVVdEQnJBckphSDN3YmpqMEpuOFFXOVo5M1E9PSIsIm1hYyI6IjdmMDhiNzFkODAyZjMyMWNjZmRmOGJmNzNkM2YyYzZhYjNmY2JiYTY1YjRmYzUxOWZmZDZmNmI3MzEyMDE1Y2YifQ%3D%3D;
+        expires=Thu, 05-May-2016 19:26:59 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IlI0MDR4SlVoYkJDU3BVRUhYMTNxY3c9PSIsInZhbHVlIjoiUnF2bmVHQ1oxNFV0dWt1eWhaUkR4RXEzaWcxN3VEQWNGR2ZUeEk4endQc0wzNmJqVEI2ZzNEejRDU2ZSMjZnVFwvTnk4a2U2U2FcLzVSb01vejlYN2Z6QT09IiwibWFjIjoiOWJlNDE0OTQwMDI2ZWY3NGZmZjUwODVmMTg5NTQxMWIwMzc1ZmYyNTBlYTJmNzBhNWFkMTNlZDUwZThiMDY5ZCJ9;
+        expires=Thu, 05-May-2016 19:26:59 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"BRMA17_3","name":"Onyxia","cardSet":"Blackrock Mountain","type":"Hero","health":15,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_3.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_3_premium.gif","locale":"enUS"},{"cardId":"BRMA17_3H","name":"Onyxia","cardSet":"Blackrock
+        Mountain","type":"Hero","health":30,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_3H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_3H_premium.gif","locale":"enUS"},{"cardId":"BRMA17_9","name":"Onyxiclaw","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":2,"attack":2,"durability":6,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_9.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_9_premium.gif","locale":"enUS"},{"cardId":"EX1_562","name":"Onyxia","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":8,"health":8,"text":"<b>Battlecry:</b>
+        Summon 1/1 Whelps until your side of the battlefield is full.","flavor":"Onyxia
+        long manipulated the Stormwind Court by disguising herself as Lady Katrana
+        Prestor.   You would have thought that the giant wings and scales would have
+        been a giveaway.","artist":"Dany Orizio","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_562.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_562_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 17:26:59 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/search/Onyxia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 17:29:16 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IkxONFwvMkRFV1c4SkxlUk93SkR2M2F3PT0iLCJ2YWx1ZSI6Ikk5RDRGd2duRHRwVUFFXC9xbG0wZW9HTXlDOHJlZFVobkVvczlsclhYZDlCU1QzXC84OWxmNXpRa0p3U2k2MXRcL01BdGltTFNhWGw1N1lEdDdyYlRvUnJRPT0iLCJtYWMiOiJlNjA5OWE4MGFiZmFjNWRhOThmNDdjNmY3MDUzZGNhYjMwYjkyNGQwMTA4ZTFlNTMwOWE2ZmExMzBlYTI1OWIxIn0%3D;
+        expires=Thu, 05-May-2016 19:29:16 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IjBVeHJKQjNnMkMrN1B0SDRsM1AyeXc9PSIsInZhbHVlIjoicmQzZXE2Tzd6WFVIXC9rbDRTS2RXT3VLeWZHdmthVkNSSUVHalllY1ViOVBLRTlGQ3dUOTJFZkcrYVwvOVwvMjU5NVwveHVLdmtpZ3RFSGxrVHNpTEtKXC9Idz09IiwibWFjIjoiMTUyMTMyY2ZlOTk1YmVjODUyOTllZDAxYmU3MjM1MzhhYWIzNzM4ZmM4ZjQ1ZGM5NmYzMjg3ZmU5MDA0ODU0YyJ9;
+        expires=Thu, 05-May-2016 19:29:16 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '1295'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"BRMA17_3","name":"Onyxia","cardSet":"Blackrock Mountain","type":"Hero","health":15,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_3.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_3_premium.gif","locale":"enUS"},{"cardId":"BRMA17_3H","name":"Onyxia","cardSet":"Blackrock
+        Mountain","type":"Hero","health":30,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_3H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_3H_premium.gif","locale":"enUS"},{"cardId":"EX1_562","name":"Onyxia","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":8,"health":8,"text":"<b>Battlecry:</b>
+        Summon 1/1 Whelps until your side of the battlefield is full.","flavor":"Onyxia
+        long manipulated the Stormwind Court by disguising herself as Lady Katrana
+        Prestor.   You would have thought that the giant wings and scales would have
+        been a giveaway.","artist":"Dany Orizio","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_562.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_562_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 17:29:15 GMT
+recorded_with: VCR 2.9.3
