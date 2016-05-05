@@ -145,6 +145,19 @@ HearthstoneApi::Cards.races("Murloc")
       [...]
 ```
 
+#### Qualities
+
+```ruby
+HearthstoneApi::Cards.qualities("Legendary")
+
+=> [{"cardId"=>"BRMA14_3",
+      "name"=>"Arcanotron",
+      "cardSet"=>"Blackrock Mountain",
+      "type"=>"Minion",
+      "rarity"=>"Legendary",
+      [...]
+```
+
 #### Card Backs
 
 ```ruby
