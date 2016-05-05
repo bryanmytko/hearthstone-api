@@ -2,6 +2,8 @@
 
 # HearthstoneApi
 
+[![Gem Version](https://badge.fury.io/rb/hearthstone_api.svg)](https://badge.fury.io/rb/hearthstone_api)
+
 API Wrapper for hearthstoneapi.com
 
 ## Installation
