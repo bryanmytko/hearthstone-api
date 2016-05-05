@@ -120,4 +120,23 @@ describe HearthstoneApi::Cards do
       end
     end
   end
+
+  describe "cards by race" do
+    let(:race) { "Murloc" }
+    let(:locale) { "jaJP" }
+
+    it "returns cards by race" do
+      VCR.use_cassette("hearthstone_api/cards/races") do
+        query = cards.races(race, locale: locale)
+        expect(query.first["race"]).to eq(race)
+      end
+    end
+
+    it "accepts options" do
+      VCR.use_cassette("hearthstone_api/cards/races/options") do
+        query = cards.races(race, locale: locale)
+        expect(query.first["locale"]).to eq(locale)
+      end
+    end
+  end
 end
