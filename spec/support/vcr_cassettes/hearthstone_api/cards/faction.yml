@@ -1,0 +1,155 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/faction/Horde
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Thu, 05 May 2016 16:22:23 GMT
+      Server:
+      - Mashape/5.0.6
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '709'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<html>\r\n\t<head>\r\n\t\t<link href='//fonts.googleapis.com/css?family=Lato:100'
+        rel='stylesheet' type='text/css'>\r\n\r\n\t\t<style>\r\n\t\t\tbody {\r\n\t\t\t\tmargin:
+        0;\r\n\t\t\t\tpadding: 0;\r\n\t\t\t\twidth: 100%;\r\n\t\t\t\theight: 100%;\r\n\t\t\t\tcolor:
+        #B0BEC5;\r\n\t\t\t\tdisplay: table;\r\n\t\t\t\tfont-weight: 100;\r\n\t\t\t\tfont-family:
+        'Lato';\r\n\t\t\t}\r\n\r\n\t\t\t.container {\r\n\t\t\t\ttext-align: center;\r\n\t\t\t\tdisplay:
+        table-cell;\r\n\t\t\t\tvertical-align: middle;\r\n\t\t\t}\r\n\r\n\t\t\t.content
+        {\r\n\t\t\t\ttext-align: center;\r\n\t\t\t\tdisplay: inline-block;\r\n\t\t\t}\r\n\r\n\t\t\t.title
+        {\r\n\t\t\t\tfont-size: 72px;\r\n\t\t\t\tmargin-bottom: 40px;\r\n\t\t\t}\r\n\t\t</style>\r\n\t</head>\r\n\t<body>\r\n\t\t<div
+        class=\"container\">\r\n\t\t\t<div class=\"content\">\r\n\t\t\t\t<div class=\"title\">404</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Thu, 05 May 2016 16:22:23 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/factions/Horde
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 16:22:50 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Ik9IQ3VQNzRyN1ZmQklmZHJ6WHdIU2c9PSIsInZhbHVlIjoiWDlcL2dxcDZoSVU5ZlgwZFlBalJDN1pOSnBhemh2MWtjc1BDOEZhZ1VsXC9tWGM4NnN1NHFMN0hUQnIzRmZNR3FMR3pKS1R6ZXVwNEJRdk1DOXlFUzFkdz09IiwibWFjIjoiYmNiM2RmYmUyN2NiYzA2ZmNmMzFlMGE1YjQxMzVlYTE2MTc2MWNhMWI0NDhiYjA4OWY2OTI4MWJmNTQ4MjliYSJ9;
+        expires=Thu, 05-May-2016 18:22:50 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6Ik9oaDNmSENIZ053R2dHSzY5UTFSZ3c9PSIsInZhbHVlIjoiRHlxalNvY0RaMG8xU1FuMnU4RDhGZGxpRmNhQ0p3SGswc2pUNVkxdUp1b3VjMWJ3ZkZuOHIxV29YcW9uUmVQc3hhMHFiRmc4eVNHYVo1dVF2Sm8yVkE9PSIsIm1hYyI6IjQ0ZjJkYjEwYzUyMjM2ZjRlMmM0NDhiYmQzZDdhNDEwZjcxOTQ4YTY3NWE3MDQzOTMzYzg5ZDc2OTZhOTdlMDUifQ%3D%3D;
+        expires=Thu, 05-May-2016 18:22:50 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"CS2_189","name":"Elven Archer","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":1,"attack":1,"health":1,"text":"<b>Battlecry:</b>
+        Deal 1 damage.","flavor":"Don''t bother asking her out on a date.  She''ll
+        shoot you down.","artist":"Steve Prescott","collectible":true,"howToGetGold":"Unlocked
+        at Druid Level 57.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_189.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_189_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"EX1_011","name":"Voodoo
+        Doctor","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":1,"attack":2,"health":1,"text":"<b>Battlecry:</b>
+        Restore 2 Health.","flavor":"Voodoo is an oft-misunderstood art. But it <i>is</i>
+        art.","artist":"Karl Richardson","collectible":true,"howToGetGold":"Unlocked
+        at Rogue Level 55.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_011.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_011_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_169","name":"Young
+        Dragonhawk","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":1,"attack":1,"health":1,"text":"<b>Windfury</b>","flavor":"They
+        were the inspiration for the championship Taurenball team: The Dragonhawks.","artist":"Greg
+        Hildebrandt","collectible":true,"race":"Beast","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_169.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_169_premium.gif","locale":"enUS","mechanics":[{"name":"Windfury"}]},{"cardId":"CS2_172","name":"Bloodfen
+        Raptor","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":2,"attack":3,"health":2,"flavor":"\"Kill
+        30 raptors.\" - Hemet Nesingwary","artist":"Dan Brereton","collectible":true,"race":"Beast","howToGetGold":"Unlocked
+        at Hunter Level 57.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_172.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_172_premium.gif","locale":"enUS"},{"cardId":"CS2_142","name":"Kobold
+        Geomancer","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":2,"attack":2,"health":2,"text":"<b>Spell
+        Damage +1</b>","flavor":"In the old days, Kobolds were the finest candle merchants
+        in the land. Then they got pushed too far...","artist":"Gabor Szikszai","collectible":true,"howToGetGold":"Unlocked
+        at Warlock Level 59.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_142.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_142_premium.gif","locale":"enUS","mechanics":[{"name":"Spell
+        Damage"}]},{"cardId":"CS2_181","name":"Injured Blademaster","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Rare","cost":3,"attack":4,"health":7,"text":"<b>Battlecry:</b>
+        Deal 4 damage to HIMSELF.","inPlayText":"Weakened","flavor":"He claims it
+        is an old war wound, but we think he just cut himself shaving.","artist":"Samwise","collectible":true,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_181.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_181_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_203","name":"Ironbeak
+        Owl","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":3,"attack":2,"health":1,"text":"<b>Battlecry:</b>
+        <b>Silence</b> a minion.","flavor":"Their wings are silent but their screech
+        is... whatever the opposite of silent is.","artist":"Trevor Jacobs","collectible":true,"race":"Beast","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_203.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_203_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"EX1_017","name":"Jungle
+        Panther","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":3,"attack":4,"health":2,"text":"<b>Stealth</b>","flavor":"Stranglethorn
+        is a beautiful place to visit, but you wouldn''t want to live there.","artist":"Jaemin
+        Kim","collectible":true,"race":"Beast","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_017.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_017_premium.gif","locale":"enUS","mechanics":[{"name":"Stealth"}]},{"cardId":"CS2_196","name":"Razorfen
+        Hunter","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":3,"attack":2,"health":3,"text":"<b>Battlecry:</b>
+        Summon a 1/1 Boar.","flavor":"Someone did mess with Tuskerr once.  ONCE.","artist":"Clint
+        Langley","collectible":true,"howToGetGold":"Unlocked at Hunter Level 55.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_196.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_196_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_127","name":"Silverback
+        Patriarch","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":3,"attack":1,"health":4,"text":"<b>Taunt</b>","flavor":"He
+        likes to act like he''s in charge, but the silverback matriarch actually runs
+        things.","artist":"Daren Bader","collectible":true,"race":"Beast","howToGetGold":"Unlocked
+        at Warrior Level 53.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_127.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_127_premium.gif","locale":"enUS","mechanics":[{"name":"Taunt"}]},{"cardId":"EX1_021","name":"Thrallmar
+        Farseer","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":3,"attack":2,"health":3,"text":"<b>Windfury</b>","flavor":"He''s
+        stationed in the Hellfire Peninsula, but he''s hoping for a reassignment closer
+        to Orgrimmar, or really anywhere the ground is less on fire.","artist":"Efrem
+        Palacios","collectible":true,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_021.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_021_premium.gif","locale":"enUS","mechanics":[{"name":"Windfury"}]},{"cardId":"CS2_124","name":"Wolfrider","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":3,"attack":3,"health":1,"text":"<b>Charge</b>","flavor":"Orcish
+        raiders ride wolves because they are well adapted to harsh environments, and
+        because they are soft and cuddly.","artist":"Dany Orizio","collectible":true,"howToGetGold":"Unlocked
+        at Warrior Level 59.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_124.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_124_premium.gif","locale":"enUS","mechanics":[{"name":"Charge"}]},{"cardId":"CS2_179","name":"Sen''jin
+        Shieldmasta","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":4,"attack":3,"health":5,"text":"<b>Taunt</b>","flavor":"Sen''jin
+        Villiage is nice, if you like trolls and dust.","artist":"Brian Despain","collectible":true,"howToGetGold":"Unlocked
+        at Rogue Level 59.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_179.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_179_premium.gif","locale":"enUS","mechanics":[{"name":"Taunt"}]},{"cardId":"EX1_023","name":"Silvermoon
+        Guardian","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":4,"attack":3,"health":3,"text":"<b>Divine
+        Shield</b>","flavor":"The first time they tried to guard Silvermoon against
+        the scourge, it didn\u2019t go so well\u2026","artist":"Phroilan Gardner","collectible":true,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_023.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_023_premium.gif","locale":"enUS","mechanics":[{"name":"Divine
+        Shield"}]},{"cardId":"EX1_048","name":"Spellbreaker","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":4,"attack":4,"health":3,"text":"<b>Battlecry:</b>
+        <b>Silence</b> a minion.","flavor":"Spellbreakers can rip enchantments from
+        magic-wielders.  The process is painless and can be performed on an outpatient
+        basis.","artist":"Matt Cavotta","collectible":true,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_048.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_048_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_187","name":"Booty
+        Bay Bodyguard","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":5,"attack":5,"health":4,"text":"<b>Taunt</b>","flavor":"You
+        can hire him... until someone offers him enough gold to turn on you.","artist":"Matt
+        Cavotta","collectible":true,"howToGetGold":"Unlocked at Shaman Level 55.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_187.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_187_premium.gif","locale":"enUS","mechanics":[{"name":"Taunt"}]},{"cardId":"CS2_226","name":"Frostwolf
+        Warlord","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":5,"attack":4,"health":4,"text":"<b>Battlecry:</b>
+        Gain +1/+1 for each other friendly minion on the battlefield.","inPlayText":"Warlord","flavor":"The
+        Frostwolves are locked in combat with the Stormpike Expedition over control
+        of Alterac Valley.  Every attempt at peace-talks has ended with Captain Galvangar
+        killing the mediator.","artist":"James Ryman","collectible":true,"howToGetGold":"Unlocked
+        at Shaman Level 53.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_226.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_226_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_221","name":"Spiteful
+        Smith","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":5,"attack":4,"health":6,"text":"<b>Enrage:</b>
+        Your weapon has +2 Attack.","inPlayText":"Summoning","flavor":"She''ll craft
+        you a sword, but you''ll need to bring her 5 Steel Ingots, 3 Motes of Earth,
+        and the scalp of her last customer.","artist":"Justin Sweet","collectible":true,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_221.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_221_premium.gif","locale":"enUS","mechanics":[{"name":"Enrage"}]},{"cardId":"CS2_227","name":"Venture
+        Co. Mercenary","cardSet":"Classic","type":"Minion","faction":"Horde","rarity":"Common","cost":5,"attack":7,"health":6,"text":"Your
+        minions cost (3) more.","inPlayText":"Power","flavor":"No Job is too big.  No
+        fee is too big.","artist":"John Polidora","collectible":true,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_227.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_227_premium.gif","locale":"enUS","mechanics":[{"name":"Aura"}]},{"cardId":"CS2_213","name":"Reckless
+        Rocketeer","cardSet":"Basic","type":"Minion","faction":"Horde","rarity":"Free","cost":6,"attack":5,"health":2,"text":"<b>Charge</b>","flavor":"One
+        Insane Rocketeer.   One Rocket full of Explosives.   Infinite Fun.","artist":"John
+        Polidora","collectible":true,"howToGetGold":"Unlocked at Shaman Level 59.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_213.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_213_premium.gif","locale":"enUS","mechanics":[{"name":"Charge"}]}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 16:22:50 GMT
+recorded_with: VCR 2.9.3
