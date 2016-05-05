@@ -158,4 +158,23 @@ describe HearthstoneApi::Cards do
       end
     end
   end
+
+  describe "cards by faction" do
+    let(:faction) { "Horde" }
+    let(:locale) { "jaJP" }
+
+    it "returns cards by faction" do
+      VCR.use_cassette("hearthstone_api/cards/faction") do
+        query = cards.factions(faction)
+        expect(query.first["faction"]).to eq(faction)
+      end
+    end
+
+    it "accepts options" do
+      VCR.use_cassette("hearthstone_api/cars/faction/options") do
+        query = cards.factions(faction, locale: locale)
+        expect(query.first["locale"]).to eq(locale)
+      end
+    end
+  end
 end
