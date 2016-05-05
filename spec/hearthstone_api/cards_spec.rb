@@ -101,4 +101,23 @@ describe HearthstoneApi::Cards do
       end
     end
   end
+
+  describe "cards by set" do
+    let(:set) { "Classic" }
+    let(:locale) { "jaJP" }
+
+    it "returns cards by set" do
+      VCR.use_cassette("hearthstone_api/cards/sets") do
+        query = cards.sets(set, locale: locale)
+        expect(query.first["cardSet"]).to eq(set)
+      end
+    end
+
+    it "accepts options" do
+      VCR.use_cassette("hearthstone_api/cards/sets/options") do
+        query = cards.sets(set, locale: locale)
+        expect(query.first["locale"]).to eq(locale)
+      end
+    end
+  end
 end
