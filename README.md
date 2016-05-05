@@ -96,6 +96,21 @@ HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
       [...]
 ```
 
+#### Types
+
+```ruby
+HearthstoneApi::Cards.type("Weapon")
+
+=> [{"cardId"=>"TB_SPT_BossWeapon",
+      "name"=>"Armory",
+      "cardSet"=>"Tavern Brawl",
+      "type"=>"Weapon",
+      "cost"=>1,
+      "attack"=>0,
+      "durability"=>1,
+      [...]
+```
+
 #### Card Backs
 
 ```ruby
@@ -138,7 +153,7 @@ HearthstoneApi::Info.all
           "Classic",
           "Credits",
           "Naxxramas",
-        [...]
+          [...]
 ```
 
 ## Contributing
