@@ -1,0 +1,882 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Weapon?locale=jaJP
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:17:18 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IndBMHJuajRPNHNyb3Fkc3BTOTJHRVE9PSIsInZhbHVlIjoiYUhtR3JOS3BQVVFnMlZ1REpNY2ViY0xrY2EwNHNBNmJpSUpNTkpMNEw4WVNFK0hWMFphTVwvOUx4THFlcnYzS0JiUE1mcnloQk92YVpjNzVrRzlKNGR3PT0iLCJtYWMiOiJjOTY2NzhjYWNjOGYzNTBlNDQ4YTNlODIwZjI4N2NhMmVkMWM1NDI1ZDZmYjhkNDU2ODg2MWI0MGI2MTU3MThjIn0%3D;
+        expires=Thu, 05-May-2016 16:17:18 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImhFT0VvVWhvbmt5MFwvXC9iSXhEWUhnZz09IiwidmFsdWUiOiJaeEhXM212elZlMFBnbXdtRnFEb1plMndjbXV5aHR2OVJzQ3BPVE1ERStxOFlQeWUrWU1SVWxlSFpnejBXcnFMYlpSZ1JzMWVlTERmR3c5OG05ZTExZz09IiwibWFjIjoiZTk2YTNmNGYyMTU1MzJiOGI0YjQ5ZWQxMDE0ZTk3ODc3ZjE4MzA3Zjk2NThjN2NjZDlhY2YwYzA5NDU3M2E1ZCJ9;
+        expires=Thu, 05-May-2016 16:17:18 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '41'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Card not found."}'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:17:18 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Weapon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:18:35 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Ik16SnFcL1RWcW44R254dEM4dWFNSDh3PT0iLCJ2YWx1ZSI6Ik9WZndDQk53Z3pnaXFMaHI3NmZHUjhcL0JUUm1WSEZwVkx0S1BoOERhaHhrejZsdTBaRFlMXC91ZnlGV0FaOWdQTDkyUkNKekJTbzZnT05Qd1BEdE1jQ2c9PSIsIm1hYyI6ImU3MjVlZjY5ZDk4YjUzNGJmNjQ2NDNkNTgxMjU0NDkwMTM5MTIxY2NmYzY4MjM3YzRjZmZjMzczZDljY2EzZWYifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:18:35 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImlCZ1M4dENHcjNmVUVoVEhWOWlqeFE9PSIsInZhbHVlIjoiSVpxRURNazRRYURcL1FWaFdZZ2xqNXR3K0FObUNQT3ZFQkJLXC9wSHdxN29wR20xNjdvN1Z2cm9rNFwvc2tPVEl6enNlNUw1d1BHeGMwek04dGNISndCekE9PSIsIm1hYyI6IjcxZjdiNGQxZDMwOGJkODY5YmJhNzI2NGY4YmMyMjQ3OGIwODZlMzJiZjFlZTg1YzVmYjcxMmU5NzIzMTUyODAifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:18:35 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '41'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Card not found."}'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:18:35 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Ysera
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:26:26 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6InZRWGZmVU53RzJLVGJnV1ltSms4dHc9PSIsInZhbHVlIjoicE56dXE2QXgwZHRTaWNXdUQ3XC9FeU1ESzBFSzZscUFyVmNJNEQ5b3J1ZE1heFFCQ0h3Y1JuNDM1ZnZOWnJyQThDT3NxNU9GNk1jZGpNZjZZV1lrXC81QT09IiwibWFjIjoiMTNjNzA2YjdmYmI1MTg1OTVmZDQzODhlZjk0ZjQ3ODg2YTQ1NGQ0YTY5ZmFlNzQzZTFiZTJkMDI5ZmI5OTdiMyJ9;
+        expires=Thu, 05-May-2016 16:26:26 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IkRxbjhLZFgyWE5zOXRGVjcySlpiOXc9PSIsInZhbHVlIjoiMHA0U1wvSHYzNFdlQU9GSm13NDlNNDVuUDM4NEh0Y3FUQW0yMURKUjRrWXBmQ1IrdStGS0JZd1BJXC94SG4yRFE1aTZlWlFTOHBuSDh2QUtlVDMzNDc0dz09IiwibWFjIjoiMTQwZTliMTZiYTRiMDk0YTc4YzI3NGQ3NjVhYWM0YzA2NDU5ZmFlYTU0MDRlMmE2ZjI4ODg1NWQ1MWYwYjBhNCJ9;
+        expires=Thu, 05-May-2016 16:26:26 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '594'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"EX1_572","name":"Ysera","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":4,"health":12,"text":"At
+        the end of your turn, add a Dream Card to your hand.","flavor":"Ysera rules
+        the Emerald Dream.  Which is some kind of green-mirror-version of the real
+        world, or something?","artist":"Gabor Szikszai","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_572.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_572_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:26:26 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Weapon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:26:40 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Ik5oUWp3Uit5SmhsOFdJdG1heXhPNWc9PSIsInZhbHVlIjoiM1UreEZ1UDNvUVFPZmNSY0xSdHVKSDQwTnhHU1pjSUJKd29aSFhyamFVM21sSDFoQTV2QVN4STVxQ3ZNV1VWMnBPeWF3N2JwZ3dsTnBWNGthblZQZWc9PSIsIm1hYyI6IjNmYjEzZTQ4YzA1NmE4NmRiMWYxMWVmZDJhYWU2YjUyNTc2ZDcxZmE3YmRjN2UzNjQ3MmYzY2JkNDU4NjQ4NWMifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:26:40 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IjRQd1VXWmh0Z01id1l1cVlqbE1vaHc9PSIsInZhbHVlIjoiVlJxQXNqd0YrelwvYVhxcHdyS1B5WHhFYzkwTjZFaFZlMFJreTVLUnBEbzNhTUE0OTMrZWdjc0FIa3ZjSHN2MVRiV05kb1JQTjZGa0tHcXpCSW93ZmZRPT0iLCJtYWMiOiI4YjY0MTBhMDA3ZTdhMDE5ZWFlNmFjYTJlYjMxNzAzZDYzNDQzYzYwMzQxODM3NGZhMjI0MWE0NTU0ZTEzYmM2In0%3D;
+        expires=Thu, 05-May-2016 16:26:40 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '41'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Card not found."}'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:26:40 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Spell
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:26:44 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6InQ0R21lQ3BsYlwvNVh0SGxEZ2E3N0RBPT0iLCJ2YWx1ZSI6ImJWZzJqU01JMFIzdUtHK2ZNdlBWazZTZ01uMlwvRDEzMTdxZlc2V2V5dngwVng1SmlNYVdycXBGMlwvRUd4cEVXWlJzWXlzb0Z0eHFjaVNTNFFIS1wvOFhBPT0iLCJtYWMiOiI3OGM4YTBiMzk2NTc4MjQ1YTQzZmQ5NTlhN2U2NWExYzdmNWU1MDVlNjFkZGYzYmYyNjNjNzY3ZjM1NDBkMjE3In0%3D;
+        expires=Thu, 05-May-2016 16:26:44 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6Im9lTURDd01RTVlxbnRqdzY4bnpkT1E9PSIsInZhbHVlIjoicHhrd0FWdnpDcHV3am9kbUpORndGUkdSN3lLTE9jU0FRME1BYjV0bk9pd0VIcUxJanAzczNwTW8wRnJCNEtTTE9RS282ck5VRE1DQUtIN1FvMENhcmc9PSIsIm1hYyI6IjRkY2EwZWI3ODU5ODUwMTk5YWUyZjJkZDdkZGU4YjY2NjFhZGUwN2NkNmRmYzhlM2ViNGQwYTcxMTJhNmM0YzkifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:26:44 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '41'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Card not found."}'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:26:44 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/Spell
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:26:47 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Ik0zckRkcnZnVXlZOER4VFdjSFhzZnc9PSIsInZhbHVlIjoiK0UzU3BYUWc2MWRzdjhlT2JtMzhnSWIrTldCK2VqellwTkQ1UklYendHMllhd0lFMHVXaWZDOEFIeHBKZllubWVCVEp6eWxVZlBmNDRPQWJJa0xrYXc9PSIsIm1hYyI6IjIwY2JmOTdiZGUwMjdjZWE1NzMzOGYwZjk4ZTJlOTViYzY0ODY4NjM2YzgzYWJkMmRhZjQ1OGZkNjJkZDFhMWIifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:26:47 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IkFDcXhpbGttZ2JnQTZJWjMwbDhHUmc9PSIsInZhbHVlIjoidWR3eTV1QmRcL1huM3Uzd3YzSU5XR3BWd1pRMFBuNStcL0hpeWt1NDJsRllTUHBJbGE1VHEzcTdpUFwvTkdjRGdYNkVPRFM5V05DaHJrcWNhK2czOTFlYWc9PSIsIm1hYyI6Ijg0NjdkMGFhNWE5ZDRlNWZjMmVjNWE5YThmM2FjOTlmYWYwNDAwY2NlZjYxMmNmMzJjN2VlYTQxMWE4ZDM5MTEifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:26:47 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '41'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":404,"message":"Card not found."}'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:26:47 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/types/Weapon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:28:09 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IlpFM1ZhWEFlV3hvWFJaNXNGV2d6Ymc9PSIsInZhbHVlIjoia3VZV1J2R3dFalBtQitwb05XV2JucVVsQXdpTXNkQXFYc1JwZW9NcWxcL1ozRG05RE1wbndZcEt2Y0tSeXFxQXJTK2RVb2ttbE1iRldiTEpVSWRrSFB3PT0iLCJtYWMiOiI5NDQ5Y2YwZWQxZjg1M2QyYWM5N2EzZGY0NzQyYTBlOTUzOTA1NzcyNmVmMzU0NGIyZDRkNjI5NTQyMGRhZGMzIn0%3D;
+        expires=Thu, 05-May-2016 16:28:09 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6InlVbUFRM3VJc3M5TjRLRGY4S1dkS1E9PSIsInZhbHVlIjoicHpFc0ZkS2lcL2xEcWxzamlIbUROSVpoMjRyNjJ1em1aRlZQdTBTNzNpcnRMUTRoVU9TdFdSb2hzTDhQSUxkMVgzbyt3akJZNGxwdGZla010MDl2bkx3PT0iLCJtYWMiOiI2YTU2ZjExY2U3MDUyNDJmNWQ1ZTVlMTE0OWFlYmU4N2M3MzI1NDlmYWRiYTU4ZjI2YWJlZTk2ZDRhNDA0ZTg4In0%3D;
+        expires=Thu, 05-May-2016 16:28:09 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"TB_SPT_BossWeapon","name":"Armory","cardSet":"Tavern Brawl","type":"Weapon","cost":1,"attack":0,"durability":1,"text":"Attack
+        increases over time.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_BossWeapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_BossWeapon_premium.gif","locale":"enUS"},{"cardId":"EX1_398t","name":"Battle
+        Axe","cardSet":"Classic","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_398t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_398t_premium.gif","locale":"enUS"},{"cardId":"LOE_118","name":"Cursed
+        Blade","cardSet":"The League of Explorers","type":"Weapon","rarity":"Rare","cost":1,"attack":2,"durability":3,"text":"Double
+        all damage dealt to your hero.","flavor":"The Curse is that you have to listen
+        to \"MMMBop\" on repeat.","artist":"Craig Mullins","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        in the Hall of Explorers, in the League of Explorers adventure.","howToGetGold":"Crafting
+        unlocked in the Hall of Explorers, in the League of Explorers adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_118.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_118_premium.gif","locale":"enUS"},{"cardId":"BRMA16_5","name":"Dragonteeth","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":1,"attack":0,"durability":6,"text":"Whenever
+        your opponent plays a card, gain +1 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA16_5.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA16_5_premium.gif","locale":"enUS"},{"cardId":"TB_BlingBrawl_Weapon","name":"Foam
+        Sword","cardSet":"Tavern Brawl","type":"Weapon","cost":1,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BlingBrawl_Weapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BlingBrawl_Weapon_premium.gif","locale":"enUS"},{"cardId":"EX1_409t","name":"Heavy
+        Axe","cardSet":"Classic","type":"Weapon","cost":1,"attack":1,"durability":3,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_409t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_409t_premium.gif","locale":"enUS"},{"cardId":"NAX12_03","name":"Jaws","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"Whenever
+        a minion with <b>Deathrattle</b> dies, gain +2 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03_premium.gif","locale":"enUS"},{"cardId":"NAX12_03H","name":"Jaws","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":3,"durability":5,"text":"Whenever
+        a minion with <b>Deathrattle</b> dies, gain +2 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03H_premium.gif","locale":"enUS"},{"cardId":"CS2_091","name":"Light''s
+        Justice","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":4,"flavor":"Prince
+        Malchezaar was a collector of rare weapons. He''d animate them and have them
+        dance for him.","artist":"Glenn Rane","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 36.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_091.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_091_premium.gif","locale":"enUS"},{"cardId":"AT_132_ROGUEt","name":"Poisoned
+        Dagger","cardSet":"The Grand Tournament","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUEt.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUEt_premium.gif","locale":"enUS"},{"cardId":"LOEA09_4","name":"Rare
+        Spear","cardSet":"The League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"Whenever
+        your opponent plays a Rare card, gain +1/+1.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4_premium.gif","locale":"enUS"},{"cardId":"LOEA09_4H","name":"Rare
+        Spear","cardSet":"The League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"Whenever
+        your opponent plays a Rare card, gain +1/+1.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4H_premium.gif","locale":"enUS"},{"cardId":"BRMA10_6","name":"Razorgore''s
+        Claws","cardSet":"Blackrock Mountain","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"Whenever
+        a Corrupted Egg dies, gain +1 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA10_6.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA10_6_premium.gif","locale":"enUS"},{"cardId":"OG_058","name":"Rusty
+        Hook","cardSet":"Whispers of the Old Gods","type":"Weapon","cost":1,"attack":1,"durability":3,"artist":"Grace
+        Liu","playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_058.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_058_premium.gif","locale":"enUS"},{"cardId":"CS2_082","name":"Wicked
+        Knife","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_082.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_082_premium.gif","locale":"enUS"},{"cardId":"AT_077","name":"Argent
+        Lance","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Rare","cost":2,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Reveal a minion in each deck. If yours costs more, +1 Durability.","flavor":"The
+        stripes make it look like a candy cane, but we recommend against licking it.","artist":"Joe
+        Wilson","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_077.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_077_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_106","name":"Fiery
+        War Axe","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":2,"attack":3,"durability":2,"flavor":"During
+        times of tranquility and harmony, this weapon was called by its less popular
+        name, Chilly Peace Axe.","artist":"Lucas Graciano","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 49.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_106.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_106_premium.gif","locale":"enUS"},{"cardId":"GVG_043","name":"Glaivezooka","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Give a random friendly minion +1 Attack.","flavor":"For the times when a regular
+        bazooka just isn''t enough.","artist":"Gino Whitehall","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_043.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_043_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"BRMA17_9","name":"Onyxiclaw","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":2,"attack":2,"durability":6,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_9.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_9_premium.gif","locale":"enUS"},{"cardId":"EX1_247","name":"Stormforged
+        Axe","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Common","cost":2,"attack":2,"durability":3,"text":"<b>Overload:</b>
+        (1)","flavor":"Yo, that''s a nice axe.","artist":"Nate Bowden","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_247.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_247_premium.gif","locale":"enUS","mechanics":[{"name":"Overload"}]},{"cardId":"BRMC_94","name":"Sulfuras","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":2,"attack":2,"durability":6,"text":"<b>Deathrattle:</b>
+        Your Hero Power becomes ''Deal 8 damage to a random enemy''.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMC_94.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMC_94_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"TU4e_004","name":"Warglaive
+        of Azzinoth","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_004.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_004_premium.gif","locale":"enUS"},{"cardId":"EX1_323w","name":"Blood
+        Fury","cardSet":"Classic","type":"Weapon","cost":3,"attack":3,"durability":8,"playerClass":"Warlock","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_323w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_323w_premium.gif","locale":"enUS"},{"cardId":"GVG_059","name":"Coghammer","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":2,"durability":3,"text":"<b>Battlecry:</b>
+        Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.","flavor":"So
+        you ripped this out of a machine, carved some runes on it, stuck it on a handle,
+        and now it''s a weapon of great divine power? Seems legit.","artist":"Dany
+        Orizio","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_059.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_059_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"GVG_024","name":"Cogmaster''s
+        Wrench","cardSet":"Goblins vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":1,"durability":3,"text":"Has
+        +2 Attack while you have a Mech.","flavor":"For tightening cogs and smashin''
+        troggs!","artist":"Richard Wright","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_024.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_024_premium.gif","locale":"enUS","mechanics":[{"name":"Aura"}]},{"cardId":"EX1_536","name":"Eaglehorn
+        Bow","cardSet":"Classic","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"Whenever
+        a friendly <b>Secret</b> is revealed, gain +1 Durability.","flavor":"First
+        Lesson: Put the pointy end in the other guy.","artist":"Cyril Van Der Haegen","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_536.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_536_premium.gif","locale":"enUS"},{"cardId":"NAX10_02","name":"Hook","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":8,"text":"<b>Deathrattle:</b>
+        Put this weapon into your hand.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"NAX10_02H","name":"Hook","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":4,"durability":8,"text":"<b>Windfury</b>\n<b>Deathrattle:</b>
+        Put this weapon into your hand.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02H_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"},{"name":"Windfury"}]},{"cardId":"AT_065","name":"King''s
+        Defender","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Battlecry</b>:
+        If you have a minion with <b>Taunt</b>,  gain +1 Durability.","flavor":"\"King''s
+        Attacker\" is a shield.  Funny, huh?","artist":"Michael Franchina","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_065.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_065_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"NAX7_04","name":"Massive
+        Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04_premium.gif","locale":"enUS"},{"cardId":"NAX7_04H","name":"Massive
+        Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":10,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04H_premium.gif","locale":"enUS"},{"cardId":"TB_KTRAF_08w","name":"Massive
+        Runeblade","cardSet":"Tavern Brawl","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_KTRAF_08w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_KTRAF_08w_premium.gif","locale":"enUS"},{"cardId":"GVG_054","name":"Ogre
+        Warmaul","cardSet":"Goblins vs Gnomes","type":"Weapon","rarity":"Common","cost":3,"attack":4,"durability":2,"text":"50%
+        chance to attack the wrong enemy.","flavor":"Simple, misguided, and incredibly
+        dangerous. You know, like most things ogre.","artist":"Richard Wright","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_054.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_054_premium.gif","locale":"enUS"},{"cardId":"EX1_133","name":"Perdition''s
+        Blade","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Rare","cost":3,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Deal 1 damage. <b>Combo:</b> Deal 2 instead.","flavor":"Perdition''s Blade
+        is Ragnaros''s back-up weapon while Sulfuras is in the shop.","artist":"Daren
+        Bader","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_133.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_133_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"},{"name":"Combo"}]},{"cardId":"GVG_036","name":"Powermace","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Deathrattle</b>:
+        Give a random friendly Mech +2/+2.","flavor":"People assume that shamans control
+        the elements, but really, they have to ask them stuff and the elements are
+        like, \"Yeah ok, sure.\"","artist":"Zoltan and Gabor","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_036.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_036_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_222","name":"Rallying
+        Blade","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Battlecry:</b>
+        Give +1/+1 to your minions with <b>Divine Shield</b>.","flavor":"As far as
+        blades go, this one is pretty great in the motivation department.","artist":"J.
+        Curtis Cranford","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_222.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_222_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"NAX9_05","name":"Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":1,"durability":3,"text":"Has
+        +3 Attack if the other Horsemen are dead.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05_premium.gif","locale":"enUS"},{"cardId":"NAX9_05H","name":"Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":2,"durability":3,"text":"Has
+        +6 Attack if the other Horsemen are dead.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05H_premium.gif","locale":"enUS"},{"cardId":"EX1_366","name":"Sword
+        of Justice","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":3,"attack":1,"durability":5,"text":"After
+        you summon a minion, give it +1/+1 and this loses 1 Durability.","flavor":"I
+        dub you Sir Loin of Beef!","artist":"Efrem Palacios","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_366.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_366_premium.gif","locale":"enUS"},{"cardId":"AT_050","name":"Charged
+        Hammer","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":2,"durability":4,"text":"<b>Deathrattle:</b>
+        Your Hero Power becomes ''Deal 2 damage.''","flavor":"You can only pick it
+        up if you are worthy.","artist":"Peet Cooper","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_050.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_050_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"FP1_021","name":"Death''s
+        Bite","cardSet":"Naxxramas","type":"Weapon","rarity":"Common","cost":4,"attack":4,"durability":2,"text":"<b>Deathrattle:</b>
+        Deal 1 damage to all minions.","flavor":"\"Take a bite outta Death.\" - McScruff
+        the Deathlord","artist":"Jim Nelson","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        in The Construct Quarter, in the Naxxramas adventure.","howToGetGold":"Crafting
+        unlocked in The Construct Quarter, in the Naxxramas adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/FP1_021.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FP1_021_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"AT_034","name":"Poisoned
+        Blade","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":1,"durability":3,"text":"Your
+        Hero Power gives this weapon +1 Attack instead of replacing it.","flavor":"How
+        much more poisoned can a blade get?  The answer is a lot.  A lot more poisoned.","artist":"Nutthapon
+        Petchthai","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_034.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_034_premium.gif","locale":"enUS"},{"cardId":"CS2_097","name":"Truesilver
+        Champion","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":4,"attack":4,"durability":2,"text":"Whenever
+        your hero attacks, restore 2 Health to it.","flavor":"It Slices, it Dices.
+        You can cut a tin can with it. (But you wouldn''t want to.)","artist":"Ryan
+        Sook","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked at Level
+        2.","howToGetGold":"Unlocked at Level 40.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_097.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_097_premium.gif","locale":"enUS"},{"cardId":"CS2_112","name":"Arcanite
+        Reaper","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":5,"durability":2,"flavor":"No\u2026
+        actually you should fear the Reaper.","artist":"Stefan Kopinski","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        at Level 10.","howToGetGold":"Unlocked at Level 51.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_112.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_112_premium.gif","locale":"enUS"},{"cardId":"EX1_383t","name":"Ashbringer","cardSet":"Classic","type":"Weapon","rarity":"Legendary","cost":5,"attack":5,"durability":3,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_383t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_383t_premium.gif","locale":"enUS"},{"cardId":"CS2_080","name":"Assassin''s
+        Blade","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":3,"durability":4,"flavor":"Guaranteed
+        to have been owned by a real assassin.   Certificate of authenticity included.","artist":"Brian
+        Huang","collectible":true,"playerClass":"Rogue","howToGet":"Unlocked at Level
+        2.","howToGetGold":"Unlocked at Level 32.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_080.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_080_premium.gif","locale":"enUS"},{"cardId":"EX1_567","name":"Doomhammer","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":5,"attack":2,"durability":8,"text":"<b>Windfury,
+        Overload:</b> (2)","flavor":"Orgrim Doomhammer gave this legendary weapon
+        to Thrall.  His name is a total coincidence.","artist":"John Polidora","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_567.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_567_premium.gif","locale":"enUS","mechanics":[{"name":"Windfury"},{"name":"Overload"}]},{"cardId":"OG_031","name":"Hammer
+        of Twilight","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":4,"durability":2,"text":"<b>Deathrattle:</b>
+        Summon a 4/2 Elemental.","flavor":"Stop! It''s Twlight Hammer time.","artist":"James
+        Ryman","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_031.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_031_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_033","name":"Tentacles
+        for Arms","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":2,"durability":2,"text":"<b>Deathrattle:</b>
+        Return this to your hand.","flavor":"That''s right. Garrosh just slapped you
+        to death with a tentacle.","artist":"Alex Konstad","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_033.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_033_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"TU4e_007","name":"Dual
+        Warglaives","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":6,"attack":4,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_007.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_007_premium.gif","locale":"enUS"},{"cardId":"DS1_188","name":"Gladiator''s
+        Longbow","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":5,"durability":2,"text":"Your
+        hero is <b>Immune</b> while attacking.","flavor":"The longbow allows shots
+        to be fired from farther away and is useful for firing on particularly odorous
+        targets.","artist":"Peter C. Lee","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DS1_188.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DS1_188_premium.gif","locale":"enUS"},{"cardId":"EX1_411","name":"Gorehowl","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":7,"durability":1,"text":"Attacking
+        a minion costs 1 Attack instead of 1 Durability.","flavor":"Grommash Hellscream''s
+        famous axe.  Somehow this ended up in Prince Malchezaar''s possession.  Quite
+        the mystery!","artist":"Zoltan & Gabor","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_411.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_411_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:28:09 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/types/Weapon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:28:13 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IjdBeEEwM29CQlJMR1doVktETldVRXc9PSIsInZhbHVlIjoiMlc0V251OWhrNjB3eURTWUl3SXJ0WDBhWldHOUkrS2dad1VIV1ppOTZSSmV4QWRrUndmeGhjcXczTndCaU42UE9JNnlBeEc3T0EwQ24wc3VaNVV5SlE9PSIsIm1hYyI6IjI5ZmI4OTJjOWI4NzA0NzU1YzJkYmM0ZmQ4ODQyYThhZGM5ZjA2NTkxNzM3YmZiMjI4NzY4YzM3YzA4MzIzZmUifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:28:13 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImJmWDliZENkV25PbUFkSlFZZklNdHc9PSIsInZhbHVlIjoiZkhZblVITXZpYXpQclpaOURpM2dSbEdEbXg0dXhqTWpKUHI2WFFcLzF1cWdlNlEzM0NsdVlmRGFkSk9wcE1tN1FwQ1pCYnB5dkxsU0FWS1Y4ZU1qRzJBPT0iLCJtYWMiOiI0MmUzMTI5ZDViOGY5YzI5N2QzNmU2ODgzNzNhODdhMjhmMTIzZDYyMjg3Nzg0MTg2NjFmN2ZiYTJkNThkNzRjIn0%3D;
+        expires=Thu, 05-May-2016 16:28:13 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"TB_SPT_BossWeapon","name":"Armory","cardSet":"Tavern Brawl","type":"Weapon","cost":1,"attack":0,"durability":1,"text":"Attack
+        increases over time.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_BossWeapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_BossWeapon_premium.gif","locale":"enUS"},{"cardId":"EX1_398t","name":"Battle
+        Axe","cardSet":"Classic","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_398t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_398t_premium.gif","locale":"enUS"},{"cardId":"LOE_118","name":"Cursed
+        Blade","cardSet":"The League of Explorers","type":"Weapon","rarity":"Rare","cost":1,"attack":2,"durability":3,"text":"Double
+        all damage dealt to your hero.","flavor":"The Curse is that you have to listen
+        to \"MMMBop\" on repeat.","artist":"Craig Mullins","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        in the Hall of Explorers, in the League of Explorers adventure.","howToGetGold":"Crafting
+        unlocked in the Hall of Explorers, in the League of Explorers adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_118.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_118_premium.gif","locale":"enUS"},{"cardId":"BRMA16_5","name":"Dragonteeth","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":1,"attack":0,"durability":6,"text":"Whenever
+        your opponent plays a card, gain +1 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA16_5.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA16_5_premium.gif","locale":"enUS"},{"cardId":"TB_BlingBrawl_Weapon","name":"Foam
+        Sword","cardSet":"Tavern Brawl","type":"Weapon","cost":1,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BlingBrawl_Weapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BlingBrawl_Weapon_premium.gif","locale":"enUS"},{"cardId":"EX1_409t","name":"Heavy
+        Axe","cardSet":"Classic","type":"Weapon","cost":1,"attack":1,"durability":3,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_409t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_409t_premium.gif","locale":"enUS"},{"cardId":"NAX12_03","name":"Jaws","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"Whenever
+        a minion with <b>Deathrattle</b> dies, gain +2 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03_premium.gif","locale":"enUS"},{"cardId":"NAX12_03H","name":"Jaws","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":3,"durability":5,"text":"Whenever
+        a minion with <b>Deathrattle</b> dies, gain +2 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03H_premium.gif","locale":"enUS"},{"cardId":"CS2_091","name":"Light''s
+        Justice","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":4,"flavor":"Prince
+        Malchezaar was a collector of rare weapons. He''d animate them and have them
+        dance for him.","artist":"Glenn Rane","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 36.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_091.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_091_premium.gif","locale":"enUS"},{"cardId":"AT_132_ROGUEt","name":"Poisoned
+        Dagger","cardSet":"The Grand Tournament","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUEt.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUEt_premium.gif","locale":"enUS"},{"cardId":"LOEA09_4","name":"Rare
+        Spear","cardSet":"The League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"Whenever
+        your opponent plays a Rare card, gain +1/+1.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4_premium.gif","locale":"enUS"},{"cardId":"LOEA09_4H","name":"Rare
+        Spear","cardSet":"The League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"Whenever
+        your opponent plays a Rare card, gain +1/+1.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4H_premium.gif","locale":"enUS"},{"cardId":"BRMA10_6","name":"Razorgore''s
+        Claws","cardSet":"Blackrock Mountain","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"Whenever
+        a Corrupted Egg dies, gain +1 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA10_6.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA10_6_premium.gif","locale":"enUS"},{"cardId":"OG_058","name":"Rusty
+        Hook","cardSet":"Whispers of the Old Gods","type":"Weapon","cost":1,"attack":1,"durability":3,"artist":"Grace
+        Liu","playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_058.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_058_premium.gif","locale":"enUS"},{"cardId":"CS2_082","name":"Wicked
+        Knife","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_082.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_082_premium.gif","locale":"enUS"},{"cardId":"AT_077","name":"Argent
+        Lance","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Rare","cost":2,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Reveal a minion in each deck. If yours costs more, +1 Durability.","flavor":"The
+        stripes make it look like a candy cane, but we recommend against licking it.","artist":"Joe
+        Wilson","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_077.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_077_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_106","name":"Fiery
+        War Axe","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":2,"attack":3,"durability":2,"flavor":"During
+        times of tranquility and harmony, this weapon was called by its less popular
+        name, Chilly Peace Axe.","artist":"Lucas Graciano","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 49.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_106.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_106_premium.gif","locale":"enUS"},{"cardId":"GVG_043","name":"Glaivezooka","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Give a random friendly minion +1 Attack.","flavor":"For the times when a regular
+        bazooka just isn''t enough.","artist":"Gino Whitehall","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_043.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_043_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"BRMA17_9","name":"Onyxiclaw","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":2,"attack":2,"durability":6,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_9.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_9_premium.gif","locale":"enUS"},{"cardId":"EX1_247","name":"Stormforged
+        Axe","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Common","cost":2,"attack":2,"durability":3,"text":"<b>Overload:</b>
+        (1)","flavor":"Yo, that''s a nice axe.","artist":"Nate Bowden","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_247.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_247_premium.gif","locale":"enUS","mechanics":[{"name":"Overload"}]},{"cardId":"BRMC_94","name":"Sulfuras","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":2,"attack":2,"durability":6,"text":"<b>Deathrattle:</b>
+        Your Hero Power becomes ''Deal 8 damage to a random enemy''.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMC_94.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMC_94_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"TU4e_004","name":"Warglaive
+        of Azzinoth","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_004.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_004_premium.gif","locale":"enUS"},{"cardId":"EX1_323w","name":"Blood
+        Fury","cardSet":"Classic","type":"Weapon","cost":3,"attack":3,"durability":8,"playerClass":"Warlock","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_323w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_323w_premium.gif","locale":"enUS"},{"cardId":"GVG_059","name":"Coghammer","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":2,"durability":3,"text":"<b>Battlecry:</b>
+        Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.","flavor":"So
+        you ripped this out of a machine, carved some runes on it, stuck it on a handle,
+        and now it''s a weapon of great divine power? Seems legit.","artist":"Dany
+        Orizio","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_059.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_059_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"GVG_024","name":"Cogmaster''s
+        Wrench","cardSet":"Goblins vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":1,"durability":3,"text":"Has
+        +2 Attack while you have a Mech.","flavor":"For tightening cogs and smashin''
+        troggs!","artist":"Richard Wright","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_024.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_024_premium.gif","locale":"enUS","mechanics":[{"name":"Aura"}]},{"cardId":"EX1_536","name":"Eaglehorn
+        Bow","cardSet":"Classic","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"Whenever
+        a friendly <b>Secret</b> is revealed, gain +1 Durability.","flavor":"First
+        Lesson: Put the pointy end in the other guy.","artist":"Cyril Van Der Haegen","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_536.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_536_premium.gif","locale":"enUS"},{"cardId":"NAX10_02","name":"Hook","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":8,"text":"<b>Deathrattle:</b>
+        Put this weapon into your hand.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"NAX10_02H","name":"Hook","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":4,"durability":8,"text":"<b>Windfury</b>\n<b>Deathrattle:</b>
+        Put this weapon into your hand.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02H_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"},{"name":"Windfury"}]},{"cardId":"AT_065","name":"King''s
+        Defender","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Battlecry</b>:
+        If you have a minion with <b>Taunt</b>,  gain +1 Durability.","flavor":"\"King''s
+        Attacker\" is a shield.  Funny, huh?","artist":"Michael Franchina","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_065.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_065_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"NAX7_04","name":"Massive
+        Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04_premium.gif","locale":"enUS"},{"cardId":"NAX7_04H","name":"Massive
+        Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":10,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04H_premium.gif","locale":"enUS"},{"cardId":"TB_KTRAF_08w","name":"Massive
+        Runeblade","cardSet":"Tavern Brawl","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_KTRAF_08w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_KTRAF_08w_premium.gif","locale":"enUS"},{"cardId":"GVG_054","name":"Ogre
+        Warmaul","cardSet":"Goblins vs Gnomes","type":"Weapon","rarity":"Common","cost":3,"attack":4,"durability":2,"text":"50%
+        chance to attack the wrong enemy.","flavor":"Simple, misguided, and incredibly
+        dangerous. You know, like most things ogre.","artist":"Richard Wright","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_054.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_054_premium.gif","locale":"enUS"},{"cardId":"EX1_133","name":"Perdition''s
+        Blade","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Rare","cost":3,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Deal 1 damage. <b>Combo:</b> Deal 2 instead.","flavor":"Perdition''s Blade
+        is Ragnaros''s back-up weapon while Sulfuras is in the shop.","artist":"Daren
+        Bader","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_133.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_133_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"},{"name":"Combo"}]},{"cardId":"GVG_036","name":"Powermace","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Deathrattle</b>:
+        Give a random friendly Mech +2/+2.","flavor":"People assume that shamans control
+        the elements, but really, they have to ask them stuff and the elements are
+        like, \"Yeah ok, sure.\"","artist":"Zoltan and Gabor","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_036.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_036_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_222","name":"Rallying
+        Blade","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Battlecry:</b>
+        Give +1/+1 to your minions with <b>Divine Shield</b>.","flavor":"As far as
+        blades go, this one is pretty great in the motivation department.","artist":"J.
+        Curtis Cranford","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_222.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_222_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"NAX9_05","name":"Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":1,"durability":3,"text":"Has
+        +3 Attack if the other Horsemen are dead.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05_premium.gif","locale":"enUS"},{"cardId":"NAX9_05H","name":"Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":2,"durability":3,"text":"Has
+        +6 Attack if the other Horsemen are dead.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05H_premium.gif","locale":"enUS"},{"cardId":"EX1_366","name":"Sword
+        of Justice","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":3,"attack":1,"durability":5,"text":"After
+        you summon a minion, give it +1/+1 and this loses 1 Durability.","flavor":"I
+        dub you Sir Loin of Beef!","artist":"Efrem Palacios","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_366.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_366_premium.gif","locale":"enUS"},{"cardId":"AT_050","name":"Charged
+        Hammer","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":2,"durability":4,"text":"<b>Deathrattle:</b>
+        Your Hero Power becomes ''Deal 2 damage.''","flavor":"You can only pick it
+        up if you are worthy.","artist":"Peet Cooper","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_050.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_050_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"FP1_021","name":"Death''s
+        Bite","cardSet":"Naxxramas","type":"Weapon","rarity":"Common","cost":4,"attack":4,"durability":2,"text":"<b>Deathrattle:</b>
+        Deal 1 damage to all minions.","flavor":"\"Take a bite outta Death.\" - McScruff
+        the Deathlord","artist":"Jim Nelson","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        in The Construct Quarter, in the Naxxramas adventure.","howToGetGold":"Crafting
+        unlocked in The Construct Quarter, in the Naxxramas adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/FP1_021.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FP1_021_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"AT_034","name":"Poisoned
+        Blade","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":1,"durability":3,"text":"Your
+        Hero Power gives this weapon +1 Attack instead of replacing it.","flavor":"How
+        much more poisoned can a blade get?  The answer is a lot.  A lot more poisoned.","artist":"Nutthapon
+        Petchthai","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_034.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_034_premium.gif","locale":"enUS"},{"cardId":"CS2_097","name":"Truesilver
+        Champion","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":4,"attack":4,"durability":2,"text":"Whenever
+        your hero attacks, restore 2 Health to it.","flavor":"It Slices, it Dices.
+        You can cut a tin can with it. (But you wouldn''t want to.)","artist":"Ryan
+        Sook","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked at Level
+        2.","howToGetGold":"Unlocked at Level 40.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_097.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_097_premium.gif","locale":"enUS"},{"cardId":"CS2_112","name":"Arcanite
+        Reaper","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":5,"durability":2,"flavor":"No\u2026
+        actually you should fear the Reaper.","artist":"Stefan Kopinski","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        at Level 10.","howToGetGold":"Unlocked at Level 51.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_112.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_112_premium.gif","locale":"enUS"},{"cardId":"EX1_383t","name":"Ashbringer","cardSet":"Classic","type":"Weapon","rarity":"Legendary","cost":5,"attack":5,"durability":3,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_383t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_383t_premium.gif","locale":"enUS"},{"cardId":"CS2_080","name":"Assassin''s
+        Blade","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":3,"durability":4,"flavor":"Guaranteed
+        to have been owned by a real assassin.   Certificate of authenticity included.","artist":"Brian
+        Huang","collectible":true,"playerClass":"Rogue","howToGet":"Unlocked at Level
+        2.","howToGetGold":"Unlocked at Level 32.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_080.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_080_premium.gif","locale":"enUS"},{"cardId":"EX1_567","name":"Doomhammer","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":5,"attack":2,"durability":8,"text":"<b>Windfury,
+        Overload:</b> (2)","flavor":"Orgrim Doomhammer gave this legendary weapon
+        to Thrall.  His name is a total coincidence.","artist":"John Polidora","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_567.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_567_premium.gif","locale":"enUS","mechanics":[{"name":"Windfury"},{"name":"Overload"}]},{"cardId":"OG_031","name":"Hammer
+        of Twilight","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":4,"durability":2,"text":"<b>Deathrattle:</b>
+        Summon a 4/2 Elemental.","flavor":"Stop! It''s Twlight Hammer time.","artist":"James
+        Ryman","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_031.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_031_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_033","name":"Tentacles
+        for Arms","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":2,"durability":2,"text":"<b>Deathrattle:</b>
+        Return this to your hand.","flavor":"That''s right. Garrosh just slapped you
+        to death with a tentacle.","artist":"Alex Konstad","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_033.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_033_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"TU4e_007","name":"Dual
+        Warglaives","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":6,"attack":4,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_007.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_007_premium.gif","locale":"enUS"},{"cardId":"DS1_188","name":"Gladiator''s
+        Longbow","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":5,"durability":2,"text":"Your
+        hero is <b>Immune</b> while attacking.","flavor":"The longbow allows shots
+        to be fired from farther away and is useful for firing on particularly odorous
+        targets.","artist":"Peter C. Lee","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DS1_188.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DS1_188_premium.gif","locale":"enUS"},{"cardId":"EX1_411","name":"Gorehowl","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":7,"durability":1,"text":"Attacking
+        a minion costs 1 Attack instead of 1 Durability.","flavor":"Grommash Hellscream''s
+        famous axe.  Somehow this ended up in Prince Malchezaar''s possession.  Quite
+        the mystery!","artist":"Zoltan & Gabor","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_411.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_411_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:28:13 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/types/Weapon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:28:19 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Ik9ZZWsrK3JlbEozRzlORlNuUE5IY1E9PSIsInZhbHVlIjoiR1c4MWhXUVBTUE1QU2pNQmNJVjZMOVZqa0FRUGRYV1VrYStVYkJcL3llZVI5RFJZWHQycGhCMGVtb0o2RCtacDh5ZnR2RlB4S1ZTYmdvWG84cWQ3WmxBPT0iLCJtYWMiOiI0ZmU5MjZmNDBlN2MxYzRmZjhiNTA5MDA1Y2IyYTk4NmM0MzU4ZTY2Njg2NDg2ZGJlZTQ5NGUxNzQxNmM2YTlhIn0%3D;
+        expires=Thu, 05-May-2016 16:28:19 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6Illta0FxXC96YmJyc3o4K3ZUNEgxQ2xBPT0iLCJ2YWx1ZSI6IkJmdnArZnE3ZE5zbDhWZm1cL2JIVVlid2pjMHlwbUhaajk4aDFkRHlTQ2hMZHFJWDJ2ZlZFTHYyakdBMzhPRG0wZldQVmJsMXJLNHMzc05TUlwvdjRyUHc9PSIsIm1hYyI6IjJjYzFkNDQxNTQ4M2ExMmQ0OWE3N2QyNWJkNTBiZjlmYmE5YTUwOGI3NDc5MGJlZmVjMTljNTI4ZjY3MzRmMTIifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:28:19 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"TB_SPT_BossWeapon","name":"Armory","cardSet":"Tavern Brawl","type":"Weapon","cost":1,"attack":0,"durability":1,"text":"Attack
+        increases over time.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_BossWeapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_BossWeapon_premium.gif","locale":"enUS"},{"cardId":"EX1_398t","name":"Battle
+        Axe","cardSet":"Classic","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_398t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_398t_premium.gif","locale":"enUS"},{"cardId":"LOE_118","name":"Cursed
+        Blade","cardSet":"The League of Explorers","type":"Weapon","rarity":"Rare","cost":1,"attack":2,"durability":3,"text":"Double
+        all damage dealt to your hero.","flavor":"The Curse is that you have to listen
+        to \"MMMBop\" on repeat.","artist":"Craig Mullins","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        in the Hall of Explorers, in the League of Explorers adventure.","howToGetGold":"Crafting
+        unlocked in the Hall of Explorers, in the League of Explorers adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_118.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_118_premium.gif","locale":"enUS"},{"cardId":"BRMA16_5","name":"Dragonteeth","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":1,"attack":0,"durability":6,"text":"Whenever
+        your opponent plays a card, gain +1 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA16_5.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA16_5_premium.gif","locale":"enUS"},{"cardId":"TB_BlingBrawl_Weapon","name":"Foam
+        Sword","cardSet":"Tavern Brawl","type":"Weapon","cost":1,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BlingBrawl_Weapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BlingBrawl_Weapon_premium.gif","locale":"enUS"},{"cardId":"EX1_409t","name":"Heavy
+        Axe","cardSet":"Classic","type":"Weapon","cost":1,"attack":1,"durability":3,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_409t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_409t_premium.gif","locale":"enUS"},{"cardId":"NAX12_03","name":"Jaws","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"Whenever
+        a minion with <b>Deathrattle</b> dies, gain +2 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03_premium.gif","locale":"enUS"},{"cardId":"NAX12_03H","name":"Jaws","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":3,"durability":5,"text":"Whenever
+        a minion with <b>Deathrattle</b> dies, gain +2 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03H_premium.gif","locale":"enUS"},{"cardId":"CS2_091","name":"Light''s
+        Justice","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":4,"flavor":"Prince
+        Malchezaar was a collector of rare weapons. He''d animate them and have them
+        dance for him.","artist":"Glenn Rane","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 36.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_091.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_091_premium.gif","locale":"enUS"},{"cardId":"AT_132_ROGUEt","name":"Poisoned
+        Dagger","cardSet":"The Grand Tournament","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUEt.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUEt_premium.gif","locale":"enUS"},{"cardId":"LOEA09_4","name":"Rare
+        Spear","cardSet":"The League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"Whenever
+        your opponent plays a Rare card, gain +1/+1.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4_premium.gif","locale":"enUS"},{"cardId":"LOEA09_4H","name":"Rare
+        Spear","cardSet":"The League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"Whenever
+        your opponent plays a Rare card, gain +1/+1.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4H_premium.gif","locale":"enUS"},{"cardId":"BRMA10_6","name":"Razorgore''s
+        Claws","cardSet":"Blackrock Mountain","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"Whenever
+        a Corrupted Egg dies, gain +1 Attack.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA10_6.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA10_6_premium.gif","locale":"enUS"},{"cardId":"OG_058","name":"Rusty
+        Hook","cardSet":"Whispers of the Old Gods","type":"Weapon","cost":1,"attack":1,"durability":3,"artist":"Grace
+        Liu","playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_058.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_058_premium.gif","locale":"enUS"},{"cardId":"CS2_082","name":"Wicked
+        Knife","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_082.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_082_premium.gif","locale":"enUS"},{"cardId":"AT_077","name":"Argent
+        Lance","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Rare","cost":2,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Reveal a minion in each deck. If yours costs more, +1 Durability.","flavor":"The
+        stripes make it look like a candy cane, but we recommend against licking it.","artist":"Joe
+        Wilson","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_077.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_077_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"CS2_106","name":"Fiery
+        War Axe","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":2,"attack":3,"durability":2,"flavor":"During
+        times of tranquility and harmony, this weapon was called by its less popular
+        name, Chilly Peace Axe.","artist":"Lucas Graciano","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        at Level 1.","howToGetGold":"Unlocked at Level 49.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_106.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_106_premium.gif","locale":"enUS"},{"cardId":"GVG_043","name":"Glaivezooka","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Give a random friendly minion +1 Attack.","flavor":"For the times when a regular
+        bazooka just isn''t enough.","artist":"Gino Whitehall","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_043.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_043_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"BRMA17_9","name":"Onyxiclaw","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":2,"attack":2,"durability":6,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_9.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_9_premium.gif","locale":"enUS"},{"cardId":"EX1_247","name":"Stormforged
+        Axe","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Common","cost":2,"attack":2,"durability":3,"text":"<b>Overload:</b>
+        (1)","flavor":"Yo, that''s a nice axe.","artist":"Nate Bowden","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_247.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_247_premium.gif","locale":"enUS","mechanics":[{"name":"Overload"}]},{"cardId":"BRMC_94","name":"Sulfuras","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":2,"attack":2,"durability":6,"text":"<b>Deathrattle:</b>
+        Your Hero Power becomes ''Deal 8 damage to a random enemy''.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMC_94.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMC_94_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"TU4e_004","name":"Warglaive
+        of Azzinoth","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_004.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_004_premium.gif","locale":"enUS"},{"cardId":"EX1_323w","name":"Blood
+        Fury","cardSet":"Classic","type":"Weapon","cost":3,"attack":3,"durability":8,"playerClass":"Warlock","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_323w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_323w_premium.gif","locale":"enUS"},{"cardId":"GVG_059","name":"Coghammer","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":2,"durability":3,"text":"<b>Battlecry:</b>
+        Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.","flavor":"So
+        you ripped this out of a machine, carved some runes on it, stuck it on a handle,
+        and now it''s a weapon of great divine power? Seems legit.","artist":"Dany
+        Orizio","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_059.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_059_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"GVG_024","name":"Cogmaster''s
+        Wrench","cardSet":"Goblins vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":1,"durability":3,"text":"Has
+        +2 Attack while you have a Mech.","flavor":"For tightening cogs and smashin''
+        troggs!","artist":"Richard Wright","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_024.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_024_premium.gif","locale":"enUS","mechanics":[{"name":"Aura"}]},{"cardId":"EX1_536","name":"Eaglehorn
+        Bow","cardSet":"Classic","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"Whenever
+        a friendly <b>Secret</b> is revealed, gain +1 Durability.","flavor":"First
+        Lesson: Put the pointy end in the other guy.","artist":"Cyril Van Der Haegen","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_536.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_536_premium.gif","locale":"enUS"},{"cardId":"NAX10_02","name":"Hook","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":8,"text":"<b>Deathrattle:</b>
+        Put this weapon into your hand.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"NAX10_02H","name":"Hook","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":4,"durability":8,"text":"<b>Windfury</b>\n<b>Deathrattle:</b>
+        Put this weapon into your hand.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02H_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"},{"name":"Windfury"}]},{"cardId":"AT_065","name":"King''s
+        Defender","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Battlecry</b>:
+        If you have a minion with <b>Taunt</b>,  gain +1 Durability.","flavor":"\"King''s
+        Attacker\" is a shield.  Funny, huh?","artist":"Michael Franchina","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_065.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_065_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"NAX7_04","name":"Massive
+        Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04_premium.gif","locale":"enUS"},{"cardId":"NAX7_04H","name":"Massive
+        Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":10,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04H_premium.gif","locale":"enUS"},{"cardId":"TB_KTRAF_08w","name":"Massive
+        Runeblade","cardSet":"Tavern Brawl","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"Deals
+        double damage to heroes.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_KTRAF_08w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_KTRAF_08w_premium.gif","locale":"enUS"},{"cardId":"GVG_054","name":"Ogre
+        Warmaul","cardSet":"Goblins vs Gnomes","type":"Weapon","rarity":"Common","cost":3,"attack":4,"durability":2,"text":"50%
+        chance to attack the wrong enemy.","flavor":"Simple, misguided, and incredibly
+        dangerous. You know, like most things ogre.","artist":"Richard Wright","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_054.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_054_premium.gif","locale":"enUS"},{"cardId":"EX1_133","name":"Perdition''s
+        Blade","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Rare","cost":3,"attack":2,"durability":2,"text":"<b>Battlecry:</b>
+        Deal 1 damage. <b>Combo:</b> Deal 2 instead.","flavor":"Perdition''s Blade
+        is Ragnaros''s back-up weapon while Sulfuras is in the shop.","artist":"Daren
+        Bader","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_133.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_133_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"},{"name":"Combo"}]},{"cardId":"GVG_036","name":"Powermace","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Deathrattle</b>:
+        Give a random friendly Mech +2/+2.","flavor":"People assume that shamans control
+        the elements, but really, they have to ask them stuff and the elements are
+        like, \"Yeah ok, sure.\"","artist":"Zoltan and Gabor","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_036.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_036_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_222","name":"Rallying
+        Blade","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>Battlecry:</b>
+        Give +1/+1 to your minions with <b>Divine Shield</b>.","flavor":"As far as
+        blades go, this one is pretty great in the motivation department.","artist":"J.
+        Curtis Cranford","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_222.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_222_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]},{"cardId":"NAX9_05","name":"Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":1,"durability":3,"text":"Has
+        +3 Attack if the other Horsemen are dead.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05_premium.gif","locale":"enUS"},{"cardId":"NAX9_05H","name":"Runeblade","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":2,"durability":3,"text":"Has
+        +6 Attack if the other Horsemen are dead.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05H_premium.gif","locale":"enUS"},{"cardId":"EX1_366","name":"Sword
+        of Justice","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":3,"attack":1,"durability":5,"text":"After
+        you summon a minion, give it +1/+1 and this loses 1 Durability.","flavor":"I
+        dub you Sir Loin of Beef!","artist":"Efrem Palacios","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_366.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_366_premium.gif","locale":"enUS"},{"cardId":"AT_050","name":"Charged
+        Hammer","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":2,"durability":4,"text":"<b>Deathrattle:</b>
+        Your Hero Power becomes ''Deal 2 damage.''","flavor":"You can only pick it
+        up if you are worthy.","artist":"Peet Cooper","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_050.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_050_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"FP1_021","name":"Death''s
+        Bite","cardSet":"Naxxramas","type":"Weapon","rarity":"Common","cost":4,"attack":4,"durability":2,"text":"<b>Deathrattle:</b>
+        Deal 1 damage to all minions.","flavor":"\"Take a bite outta Death.\" - McScruff
+        the Deathlord","artist":"Jim Nelson","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        in The Construct Quarter, in the Naxxramas adventure.","howToGetGold":"Crafting
+        unlocked in The Construct Quarter, in the Naxxramas adventure.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/FP1_021.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FP1_021_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"AT_034","name":"Poisoned
+        Blade","cardSet":"The Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":1,"durability":3,"text":"Your
+        Hero Power gives this weapon +1 Attack instead of replacing it.","flavor":"How
+        much more poisoned can a blade get?  The answer is a lot.  A lot more poisoned.","artist":"Nutthapon
+        Petchthai","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_034.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_034_premium.gif","locale":"enUS"},{"cardId":"CS2_097","name":"Truesilver
+        Champion","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":4,"attack":4,"durability":2,"text":"Whenever
+        your hero attacks, restore 2 Health to it.","flavor":"It Slices, it Dices.
+        You can cut a tin can with it. (But you wouldn''t want to.)","artist":"Ryan
+        Sook","collectible":true,"playerClass":"Paladin","howToGet":"Unlocked at Level
+        2.","howToGetGold":"Unlocked at Level 40.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_097.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_097_premium.gif","locale":"enUS"},{"cardId":"CS2_112","name":"Arcanite
+        Reaper","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":5,"durability":2,"flavor":"No\u2026
+        actually you should fear the Reaper.","artist":"Stefan Kopinski","collectible":true,"playerClass":"Warrior","howToGet":"Unlocked
+        at Level 10.","howToGetGold":"Unlocked at Level 51.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_112.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_112_premium.gif","locale":"enUS"},{"cardId":"EX1_383t","name":"Ashbringer","cardSet":"Classic","type":"Weapon","rarity":"Legendary","cost":5,"attack":5,"durability":3,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_383t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_383t_premium.gif","locale":"enUS"},{"cardId":"CS2_080","name":"Assassin''s
+        Blade","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":3,"durability":4,"flavor":"Guaranteed
+        to have been owned by a real assassin.   Certificate of authenticity included.","artist":"Brian
+        Huang","collectible":true,"playerClass":"Rogue","howToGet":"Unlocked at Level
+        2.","howToGetGold":"Unlocked at Level 32.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_080.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_080_premium.gif","locale":"enUS"},{"cardId":"EX1_567","name":"Doomhammer","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":5,"attack":2,"durability":8,"text":"<b>Windfury,
+        Overload:</b> (2)","flavor":"Orgrim Doomhammer gave this legendary weapon
+        to Thrall.  His name is a total coincidence.","artist":"John Polidora","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_567.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_567_premium.gif","locale":"enUS","mechanics":[{"name":"Windfury"},{"name":"Overload"}]},{"cardId":"OG_031","name":"Hammer
+        of Twilight","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":4,"durability":2,"text":"<b>Deathrattle:</b>
+        Summon a 4/2 Elemental.","flavor":"Stop! It''s Twlight Hammer time.","artist":"James
+        Ryman","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_031.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_031_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"OG_033","name":"Tentacles
+        for Arms","cardSet":"Whispers of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":2,"durability":2,"text":"<b>Deathrattle:</b>
+        Return this to your hand.","flavor":"That''s right. Garrosh just slapped you
+        to death with a tentacle.","artist":"Alex Konstad","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_033.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_033_premium.gif","locale":"enUS","mechanics":[{"name":"Deathrattle"}]},{"cardId":"TU4e_007","name":"Dual
+        Warglaives","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":6,"attack":4,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_007.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_007_premium.gif","locale":"enUS"},{"cardId":"DS1_188","name":"Gladiator''s
+        Longbow","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":5,"durability":2,"text":"Your
+        hero is <b>Immune</b> while attacking.","flavor":"The longbow allows shots
+        to be fired from farther away and is useful for firing on particularly odorous
+        targets.","artist":"Peter C. Lee","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DS1_188.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DS1_188_premium.gif","locale":"enUS"},{"cardId":"EX1_411","name":"Gorehowl","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":7,"durability":1,"text":"Attacking
+        a minion costs 1 Attack instead of 1 Durability.","flavor":"Grommash Hellscream''s
+        famous axe.  Somehow this ended up in Prince Malchezaar''s possession.  Quite
+        the mystery!","artist":"Zoltan & Gabor","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_411.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_411_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:28:19 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/types/Weapon?locale=jaJP
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 05 May 2016 14:29:05 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6IlBOVlFlMGlGR0RxUHRIZWRPUzBxWHc9PSIsInZhbHVlIjoibWhGNWJwWm1BRXhwUjhVTjlmaWZsY2E5S1laRW5uTWdhTTVsNkQ3SktIY3Z1UXF0V3krTnV6dUJDaXJWR2NtSElId3BBdWYrQVFwQ1h6V3BKdzJ2b3c9PSIsIm1hYyI6Ijk5Yjg5YmNkYjNiNGM1MGE1YzIyOGJmZDNlMDFmMGU5OWVhMDMxOTI5NTZkNzY4ZTM4YmZlZTM3Nzk2N2UxYWMifQ%3D%3D;
+        expires=Thu, 05-May-2016 16:29:05 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6IktPcTZXa1ptZUVRZVB1bVJlRTN5XC9RPT0iLCJ2YWx1ZSI6InNmQWZ5R1AxYTFXRDRvMjJuTzkxVzhBUU9OMUQ1Q2JCN1pYdEp6U0d1aTdDZ1FpaUlWRmJFaUNjZzBJQzkzV2dHdEVcL05GZ28yUGtadFlSemM0b3Y0UT09IiwibWFjIjoiZmMzNTViNWNlODU3OTlkODk3ZmFiZWYwYWRiZDYxMTJlZmQyYzYyZWQxNTM4NWNjZWE1Y2E1N2Y3ZTI0YjkzOCJ9;
+        expires=Thu, 05-May-2016 16:29:05 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"NAX12_03","name":"\u30a2\u30ae\u30c8","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"<b>\u65ad\u672b\u9b54</b>\u3092\u6301\u3064\n\u30df\u30cb\u30aa\u30f3\u304c\n\u6b7b\u306c\u5ea6\n\u653b\u6483\u529b+2\u3092\u5f97\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03_premium.gif","locale":"jaJP"},{"cardId":"NAX12_03H","name":"\u30a2\u30ae\u30c8","cardSet":"Naxxramas","type":"Weapon","cost":1,"attack":3,"durability":5,"text":"<b>\u65ad\u672b\u9b54</b>\u3092\u6301\u3064\n\u30df\u30cb\u30aa\u30f3\u304c\u6b7b\u306c\u5ea6\n\u653b\u6483\u529b+2\u3092\n\u7372\u5f97\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX12_03H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX12_03H_premium.gif","locale":"jaJP"},{"cardId":"TB_BlingBrawl_Weapon","name":"\u30b9\u30dd\u30f3\u30b8\u306e\u5263","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":1,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BlingBrawl_Weapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BlingBrawl_Weapon_premium.gif","locale":"jaJP"},{"cardId":"BRMA16_5","name":"\u30c9\u30e9\u30b4\u30f3\u306e\u7259","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":1,"attack":0,"durability":6,"text":"\u76f8\u624b\u304c\n\u30ab\u30fc\u30c9\u3092\u4f7f\u3046\u5ea6\n\u653b\u6483\u529b+1\u3092\n\u7372\u5f97\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA16_5.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA16_5_premium.gif","locale":"jaJP"},{"cardId":"EX1_398t","name":"\u30d0\u30c8\u30eb\u30a2\u30c3\u30af\u30b9","cardSet":"Classic","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_398t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_398t_premium.gif","locale":"jaJP"},{"cardId":"EX1_409t","name":"\u30d8\u30f4\u30a3\u30a2\u30c3\u30af\u30b9","cardSet":"Classic","type":"Weapon","cost":1,"attack":1,"durability":3,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_409t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_409t_premium.gif","locale":"jaJP"},{"cardId":"CS2_091","name":"\u30e9\u30a4\u30c4\u30fb\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":4,"flavor":"\u30de\u30eb\u30b7\u30a7\u30b6\u30fc\u30eb\u516c\u7235\u306f\u3001\u30ec\u30a2\u306a\u6b66\u5668\u306e\u53ce\u96c6\u5bb6\u3060\u3063\u305f\u3002\u6b66\u5668\u3092\u64cd\u3063\u3066\u3001\u30c0\u30f3\u30b9\u3055\u305b\u3066\u305f\u3093\u3060\u3068\u3055\u3002","artist":"Glenn
+        Rane","collectible":true,"playerClass":"Paladin","howToGet":"\u30ec\u30d9\u30eb1\u3067\u5165\u624b\u3002","howToGetGold":"\u30ec\u30d9\u30eb36\u3067\u5165\u624b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_091.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_091_premium.gif","locale":"jaJP"},{"cardId":"LOEA09_4","name":"\u30ec\u30a2\u30fb\u30b9\u30d4\u30a2","cardSet":"The
+        League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"\u76f8\u624b\u304c\u300c\u30ec\u30a2\u300d\u30ab\u30fc\u30c9\n\u3092\u4f7f\u7528\u3059\u308b\u5ea6\n+1/+1\u3092\u7372\u5f97\u3059\u308b\u3002
+        ","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4_premium.gif","locale":"jaJP"},{"cardId":"LOEA09_4H","name":"\u30ec\u30a2\u30fb\u30b9\u30d4\u30a2","cardSet":"The
+        League of Explorers","type":"Weapon","cost":1,"attack":1,"durability":2,"text":"\u76f8\u624b\u304c\u300c\u30ec\u30a2\u300d\u30ab\u30fc\u30c9\n\u3092\u4f7f\u7528\u3059\u308b\u5ea6\n+1/+1\u3092\u7372\u5f97\u3059\u308b\u3002
+        ","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA09_4H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA09_4H_premium.gif","locale":"jaJP"},{"cardId":"BRMA10_6","name":"\u30ec\u30a4\u30b6\u30fc\u30b4\u30a2\u306e\u722a","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":1,"attack":1,"durability":5,"text":"\u5909\u6027\u3057\u305f\n\u5375\u304c\u6b7b\u306c\u5ea6\n\u653b\u6483\u529b+1\u3092\n\u7372\u5f97\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA10_6.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA10_6_premium.gif","locale":"jaJP"},{"cardId":"LOE_118","name":"\u546a\u308f\u308c\u305f\u5263","cardSet":"The
+        League of Explorers","type":"Weapon","rarity":"Rare","cost":1,"attack":2,"durability":3,"text":"\u81ea\u5206\u306e\u30d2\u30fc\u30ed\u30fc\u304c\n\u53d7\u3051\u308b\u30c0\u30e1\u30fc\u30b8\u304c\u5168\u30662\u500d\u306b\u306a\u308b","flavor":"\u3055\u3089\u3070\u3001\u53cb\u3088\u3002\u6211\u306f\u6c5d\u306e\u4e8c\u500d\u3082\u90aa\u60aa\u3067\u3042\u3063\u305f\uff01","artist":"Craig
+        Mullins","collectible":true,"playerClass":"Warrior","howToGet":"\u30ea\u30fc\u30b0\u30fb\u30aa\u30d6\u30fb\u30a8\u30af\u30b9\u30d7\u30ed\u30fc\u30e9\u30fc\u30fb\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc\u306e\u300c\u63a2\u691c\u5bb6\u306e\u6bbf\u5802\u300d\u3067\u5165\u624b\u3002","howToGetGold":"\u30ea\u30fc\u30b0\u30fb\u30aa\u30d6\u30fb\u30a8\u30af\u30b9\u30d7\u30ed\u30fc\u30e9\u30fc\u30fb\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc\u306e\u300c\u63a2\u691c\u5bb6\u306e\u6bbf\u5802\u300d\u3067\u4f5c\u6210\u53ef\u80fd\u306b\u306a\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOE_118.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOE_118_premium.gif","locale":"jaJP"},{"cardId":"TB_SPT_BossWeapon","name":"\u6b66\u5668\u5eab","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":1,"attack":0,"durability":1,"text":"\u653b\u6483\u529b\u304c\n\u5f90\u3005\u306b\u5897\u5927\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_BossWeapon.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_BossWeapon_premium.gif","locale":"jaJP"},{"cardId":"AT_132_ROGUEt","name":"\u6bd2\u4ed5\u8fbc\u307f\u306e\u30c0\u30ac\u30fc","cardSet":"The
+        Grand Tournament","type":"Weapon","cost":1,"attack":2,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_ROGUEt.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_ROGUEt_premium.gif","locale":"jaJP"},{"cardId":"CS2_082","name":"\u90aa\u9053\u306e\u30ca\u30a4\u30d5","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":1,"attack":1,"durability":2,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_082.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_082_premium.gif","locale":"jaJP"},{"cardId":"OG_058","name":"\u9306\u3073\u305f\u30d5\u30c3\u30af","cardSet":"Whispers
+        of the Old Gods","type":"Weapon","cost":1,"attack":1,"durability":3,"artist":"Grace
+        Liu","playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_058.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_058_premium.gif","locale":"jaJP"},{"cardId":"AT_077","name":"\u30a2\u30fc\u30b8\u30a7\u30f3\u30c8\u30fb\u30e9\u30f3\u30b9","cardSet":"The
+        Grand Tournament","type":"Weapon","rarity":"Rare","cost":2,"attack":2,"durability":2,"text":"<b>\u96c4\u53eb\u3073:</b>
+        \u5404\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u30c7\u30c3\u30ad\u306e\u30df\u30cb\u30aa\u30f3\u306e\u3046\u30611\u679a\u3092\u8868\u793a\u3059\u308b\u3002\n\u81ea\u5206\u306e\u30df\u30cb\u30aa\u30f3\u306e\u65b9\u304c\u30b3\u30b9\u30c8\u304c\u9ad8\u304b\u3063\u305f\u5834\u5408\u8010\u4e45\u5ea6+1\u3092\u5f97\u308b\u3002","flavor":"\u7e1e\u3005\u6a21\u69d8\u306e\u305b\u3044\u3067\u30ad\u30e3\u30f3\u30c7\u30a3\u30fb\u30b1\u30a4\u30f3\u3063\u307d\u304f\u898b\u3048\u306a\u304f\u3082\u306a\u3044\u304c\u3001\u8210\u3081\u308b\u306e\u306f\u304a\u52e7\u3081\u3057\u306a\u3044\u3002","artist":"Joe
+        Wilson","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_077.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_077_premium.gif","locale":"jaJP","mechanics":[{"name":"\u96c4\u53eb\u3073"}]},{"cardId":"TU4e_004","name":"\u30a2\u30ba\u30a3\u30ce\u30b9\u306e\u30a6\u30a9\u30fc\u30b0\u30ec\u30a4\u30f4","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_004.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_004_premium.gif","locale":"jaJP"},{"cardId":"BRMA17_9","name":"\u30aa\u30cb\u30af\u30b7\u30af\u30ed\u30fc","cardSet":"Blackrock
+        Mountain","type":"Weapon","cost":2,"attack":2,"durability":6,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMA17_9.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMA17_9_premium.gif","locale":"jaJP"},{"cardId":"GVG_043","name":"\u30b0\u30ec\u30a4\u30d6\u30ba\u30fc\u30ab","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Common","cost":2,"attack":2,"durability":2,"text":"<b>\u96c4\u53eb\u3073:</b>
+        \u30e9\u30f3\u30c0\u30e0\u306a\n\u5473\u65b9\u306e\u30df\u30cb\u30aa\u30f31\u4f53\u306b\u653b\u6483\u529b+1\u3092\n\u4ed8\u4e0e\u3059\u308b\u3002","flavor":"\u666e\u901a\u306e\u30d0\u30ba\u30fc\u30ab\u3067\u306f\u5f79\u306b\u7acb\u305f\u306a\u3044\u3001\u305d\u3093\u306a\u6642\u306e\u305f\u3081\u306b\u3002","artist":"Gino
+        Whitehall","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_043.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_043_premium.gif","locale":"jaJP","mechanics":[{"name":"\u96c4\u53eb\u3073"}]},{"cardId":"BRMC_94","name":"\u30b5\u30eb\u30d5\u30a1\u30e9\u30b9","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":2,"attack":2,"durability":6,"text":"<b>\u65ad\u672b\u9b54:</b>
+        \u81ea\u5206\u306e\n\u30d2\u30fc\u30ed\u30fc\u30d1\u30ef\u30fc\u304c\n\u300c\u30e9\u30f3\u30c0\u30e0\u306a\u65751\u4f53\u306b8\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u300d\u306b\n\u5909\u5316\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRMC_94.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRMC_94_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"EX1_247","name":"\u30b9\u30c8\u30fc\u30e0\u30d5\u30a9\u30fc\u30b8\u30c9\u30fb\u30a2\u30c3\u30af\u30b9","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Common","cost":2,"attack":2,"durability":3,"text":"<b>\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9:</b>
+        \uff081\uff09","flavor":"\u30e8\u30fc\u3001\u30ca\u30a4\u30b9\u306a\u30a2\u30c3\u30af\u30b9\u3060\u30e8\u30fc\uff01","artist":"Nate
+        Bowden","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_247.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_247_premium.gif","locale":"jaJP","mechanics":[{"name":"\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9"}]},{"cardId":"CS2_106","name":"\u70c8\u706b\u306e\u6226\u65a7","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":2,"attack":3,"durability":2,"flavor":"\u592a\u5e73\u306e\u6642\u4ee3\u306b\u306f\u3001\u3053\u306e\u6b66\u5668\u306f\u77e5\u308b\u4eba\u305e\u77e5\u308b\u5225\u540d\u3067\u547c\u3070\u308c\u3066\u305f\u3093\u3060\u3002\u305d\u306e\u540d\u3082\u3001\u300c\u51b7\u51cd\u306e\u5e73\u548c\u65a7\u300d\u3063\u3066\u306a\u3002","artist":"Lucas
+        Graciano","collectible":true,"playerClass":"Warrior","howToGet":"\u30ec\u30d9\u30eb1\u3067\u5165\u624b\u3002","howToGetGold":"\u30ec\u30d9\u30eb49\u3067\u5165\u624b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_106.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_106_premium.gif","locale":"jaJP"},{"cardId":"EX1_536","name":"\u30a4\u30fc\u30b0\u30eb\u30db\u30fc\u30f3\u30fb\u30dc\u30a6","cardSet":"Classic","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"\u5473\u65b9\u306e<b>\u79d8\u7b56</b>\u304c\u767a\u52d5\u3059\u308b\u5ea6\u3001\u8010\u4e45\u5ea6+1\u3092\u7372\u5f97\u3059\u308b\u3002","flavor":"\u30ec\u30c3\u30b9\u30f3\u305d\u306e1:
+        \u5c16\u3063\u305f\u65b9\u3092\u6bba\u3057\u305f\u3044\u30e4\u30c4\u306b\u5411\u3051\u308d\u3002","artist":"Cyril
+        Van Der Haegen","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_536.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_536_premium.gif","locale":"jaJP"},{"cardId":"GVG_054","name":"\u30aa\u30fc\u30ac\u306e\u5de8\u69cc","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Common","cost":3,"attack":4,"durability":2,"text":"50%\u306e\u78ba\u7387\u3067\n\u6307\u5b9a\u3057\u3066\u3044\u306a\u3044\u6575\u3092\u653b\u6483\u3059\u308b\u3002
+        ","flavor":"\u5358\u7d14\u3067\u3001\u5927\u96d1\u628a\u3067\u3001\u975e\u5e38\u306b\u5371\u967a\u3002
+        \u307e\u3042\u3001\u30aa\u30fc\u30ac\u306e\u6301\u3061\u7269\u306f\u3060\u3044\u305f\u3044\u305d\u3046\u3060\u3002","artist":"Richard
+        Wright","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_054.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_054_premium.gif","locale":"jaJP"},{"cardId":"GVG_059","name":"\u30b3\u30b0\u30cf\u30f3\u30de\u30fc","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":2,"durability":3,"text":"<b>\u96c4\u53eb\u3073:</b>
+        \u30e9\u30f3\u30c0\u30e0\u306a\n\u5473\u65b9\u306e\u30df\u30cb\u30aa\u30f31\u4f53\u306b<b>\u8056\u306a\u308b\u76fe</b>\u3068<b>\u6311\u767a</b>\u3092\u4ed8\u4e0e\u3059\u308b\u3002","flavor":"\u3064\u307e\u308a\u3001\u6a5f\u68b0\u304b\u3089\u90e8\u54c1\u3092\u3082\u304e\u53d6\u3063\u3066\u3001\u30eb\u30fc\u30f3\u3092\u523b\u3093\u3067\u3001\u67c4\u3092\u4ed8\u3051\u305f\u3089\u3001\u795e\u8056\u306a\u6b66\u5668\u306e\u51fa\u6765\u4e0a\u304c\u308a\u3001\u3063\u3066\u304b\uff1f\u30db\u30f3\u30c8\u304b\u3088\u3002","artist":"Dany
+        Orizio","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_059.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_059_premium.gif","locale":"jaJP","mechanics":[{"name":"\u96c4\u53eb\u3073"}]},{"cardId":"GVG_024","name":"\u30b3\u30b0\u30de\u30b9\u30bf\u30fc\u306e\u30ec\u30f3\u30c1","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Epic","cost":3,"attack":1,"durability":3,"text":"\u5473\u65b9\u306b\u30e1\u30ab\u304c\n\u3044\u308b\u5834\u5408\n\u653b\u6483\u529b+2\u3002
+        ","flavor":"\u6b6f\u8eca\u3092\u7de0\u3081\u3064\u3051\u308b\u306e\u306b\u3082\u3001\u30c8\u30ed\u30b0\u3092\u75db\u3081\u3064\u3051\u308b\u306e\u306b\u3082\u5f79\u306b\u7acb\u3064\uff01","artist":"Richard
+        Wright","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_024.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_024_premium.gif","locale":"jaJP","mechanics":[{"name":"Aura"}]},{"cardId":"EX1_366","name":"\u30bd\u30fc\u30c9\u30fb\u30aa\u30d6\u30fb\u30b8\u30e3\u30b9\u30c6\u30a3\u30b9","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":3,"attack":1,"durability":5,"text":"\u81ea\u5206\u304c\u30df\u30cb\u30aa\u30f3\u3092\u53ec\u559a\u3057\u305f\u5f8c\n\u305d\u306e\u30df\u30cb\u30aa\u30f3\u306b\n+1/+1\u3092\u4ed8\u4e0e\u3057\u3053\u306e\u6b66\u5668\u306f\u8010\u4e45\u5ea6\u30921\u5931\u3046\u3002","flavor":"\u5149\u3068\u6b63\u7fa9\u306e\u540d\u306b\u304a\u3044\u3066\u3001\u308f\u308c\u6c5d\u3092\u30e1\u30b7\u3068\u3059\u3001\u30b5\u30fc\u30fb\u30ed\u30a4\u30f3\u30fb\u30b9\u30c6\u30fc\u30ad\u3088\uff01","artist":"Efrem
+        Palacios","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_366.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_366_premium.gif","locale":"jaJP"},{"cardId":"GVG_036","name":"\u30d1\u30ef\u30fc\u30e1\u30a4\u30b9","cardSet":"Goblins
+        vs Gnomes","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>\u65ad\u672b\u9b54</b>:
+        \u30e9\u30f3\u30c0\u30e0\u306a\n\u5473\u65b9\u306e\u30e1\u30ab1\u4f53\u306b\u3001+2/+2\u3092\u4ed8\u4e0e\u3059\u308b\u3002
+        ","flavor":"\u30b7\u30e3\u30fc\u30de\u30f3\u306f\u7cbe\u970a\u3092\u64cd\u308b\u3068\u5e83\u304f\u4fe1\u3058\u3089\u308c\u3066\u3044\u308b\u304c\u3001\u5b9f\u306e\u3068\u3053\u308d\u3001\u30b7\u30e3\u30fc\u30de\u30f3\u306f\u7cbe\u970a\u306b\u304a\u9858\u3044\u3057\u3066\u3001\u300c\u3046\u3093\u3001\u3044\u3044\u3088\uff5e\u300d\u3068\u8a00\u3063\u3066\u3082\u3089\u3046\u5fc5\u8981\u304c\u3042\u308b\u3002","artist":"Zoltan
+        and Gabor","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_036.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_036_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"NAX10_02","name":"\u30d5\u30c3\u30af","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":8,"text":"<b>\u65ad\u672b\u9b54:</b>\n
+        \u3053\u306e\u6b66\u5668\u3092\n\u81ea\u5206\u306e\u624b\u672d\u306b\n\u8ffd\u52a0\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"NAX10_02H","name":"\u30d5\u30c3\u30af","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":4,"durability":8,"text":"<b>\u75be\u98a8</b>\n<b>\u65ad\u672b\u9b54:</b>
+        \u3053\u306e\u6b66\u5668\u3092\n\u81ea\u5206\u306e\u624b\u672d\u306b\n\u8ffd\u52a0\u3059\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX10_02H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX10_02H_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"},{"name":"\u75be\u98a8"}]},{"cardId":"NAX9_05","name":"\u30eb\u30fc\u30f3\u30d6\u30ec\u30fc\u30c9","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":1,"durability":3,"text":"\u4ef2\u9593\u306e\n\u56db\u9a0e\u58eb\u304c\n\u6b7b\u4ea1\u3057\u3066\u3044\u308b\u5834\u5408\u653b\u6483\u529b+3\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05_premium.gif","locale":"jaJP"},{"cardId":"NAX9_05H","name":"\u30eb\u30fc\u30f3\u30d6\u30ec\u30fc\u30c9","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":2,"durability":3,"text":"\u4ef2\u9593\u306e\n\u56db\u9a0e\u58eb\u304c\n\u6b7b\u4ea1\u3057\u3066\u3044\u308b\u5834\u5408\u653b\u6483\u529b+6\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX9_05H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX9_05H_premium.gif","locale":"jaJP"},{"cardId":"OG_222","name":"\u52dd\u9b28\u306e\u5263","cardSet":"Whispers
+        of the Old Gods","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>\u96c4\u53eb\u3073:</b>
+        <b>\u8056\u306a\u308b\u76fe</b>\u3092\u6301\u3064\u5473\u65b9\u306e\u30df\u30cb\u30aa\u30f3\u5168\u3066\u306b+1/+1\u3092\u4ed8\u4e0e\u3059\u308b\u3002","flavor":"\u5263\u306e\u4e2d\u3067\u3082\u3001\u3053\u3044\u3064\u306f\u975e\u5e38\u306b\u3084\u308b\u6c17\u306b\u6e80\u3061\u6ea2\u308c\u3066\u3044\u308b\u3002","artist":"J.
+        Curtis Cranford","collectible":true,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_222.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_222_premium.gif","locale":"jaJP","mechanics":[{"name":"\u96c4\u53eb\u3073"}]},{"cardId":"EX1_133","name":"\u5730\u7344\u9001\u308a\u306e\u5203","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Rare","cost":3,"attack":2,"durability":2,"text":"<b>\u96c4\u53eb\u3073:\n</b>
+        1\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002\n <b>\u30b3\u30f3\u30dc:</b>\n
+        \u4ee3\u308f\u308a\u306b2\u30c0\u30e1\u30fc\u30b8\u3092\n\u4e0e\u3048\u308b\u3002","flavor":"\u5730\u7344\u9001\u308a\u306e\u5203\u306f\u3001\u30e9\u30b0\u30ca\u30ed\u30b9\u304c\u30b5\u30eb\u30d5\u30a1\u30e9\u30b9\u3092\u4fee\u7e55\u306b\u51fa\u3057\u3066\u308b\u6642\u306b\u3060\u3051\u4f7f\u3046\u3001\u4e88\u5099\u306e\u6b66\u5668\u3060\u3002","artist":"Daren
+        Bader","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_133.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_133_premium.gif","locale":"jaJP","mechanics":[{"name":"\u96c4\u53eb\u3073"},{"name":"\u30b3\u30f3\u30dc"}]},{"cardId":"NAX7_04","name":"\u5de8\u5927\u30eb\u30fc\u30f3\u30d6\u30ec\u30fc\u30c9","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"\u30d2\u30fc\u30ed\u30fc\u306b\u306f\n2\u500d\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04_premium.gif","locale":"jaJP"},{"cardId":"NAX7_04H","name":"\u5de8\u5927\u30eb\u30fc\u30f3\u30d6\u30ec\u30fc\u30c9","cardSet":"Naxxramas","type":"Weapon","cost":3,"attack":10,"durability":2,"text":"\u30d2\u30fc\u30ed\u30fc\u306b\u306f\n2\u500d\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/NAX7_04H.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/NAX7_04H_premium.gif","locale":"jaJP"},{"cardId":"TB_KTRAF_08w","name":"\u5de8\u5927\u30eb\u30fc\u30f3\u30d6\u30ec\u30fc\u30c9","cardSet":"Tavern
+        Brawl","type":"Weapon","cost":3,"attack":5,"durability":2,"text":"\u30d2\u30fc\u30ed\u30fc\u306b\u306f\n2\u500d\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_KTRAF_08w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_KTRAF_08w_premium.gif","locale":"jaJP"},{"cardId":"AT_065","name":"\u738b\u306e\u8b77\u885b","cardSet":"The
+        Grand Tournament","type":"Weapon","rarity":"Rare","cost":3,"attack":3,"durability":2,"text":"<b>\u96c4\u53eb\u3073</b>:\n
+        \u5473\u65b9\u306b<b>\u6311\u767a</b>\u3092\u6301\u3064\n\u30df\u30cb\u30aa\u30f3\u304c\u3044\u308b\u5834\u5408\n\u8010\u4e45\u5ea6+1\u3092\n\u7372\u5f97\u3059\u308b\u3002","flavor":"\u300c\u738b\u306e\u8b77\u885b\u300d\u304c\u6b66\u5668\u3067\u3001\u300c\u738b\u306e\u5263\u58eb\u300d\u304c\u76fe\u306a\u3093\u3060\u3068\u3055\u3002\u3084\u308c\u3084\u308c\u3002","artist":"Michael
+        Franchina","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_065.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_065_premium.gif","locale":"jaJP","mechanics":[{"name":"\u96c4\u53eb\u3073"}]},{"cardId":"EX1_323w","name":"\u8840\u306e\u61a4\u6012","cardSet":"Classic","type":"Weapon","cost":3,"attack":3,"durability":8,"playerClass":"Warlock","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_323w.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_323w_premium.gif","locale":"jaJP"},{"cardId":"FP1_021","name":"\u30c7\u30b9\u30fb\u30d0\u30a4\u30c8","cardSet":"Naxxramas","type":"Weapon","rarity":"Common","cost":4,"attack":4,"durability":2,"text":"<b>\u65ad\u672b\u9b54:</b>\n
+        \u5168\u3066\u306e\u30df\u30cb\u30aa\u30f3\u306b\n1\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002","flavor":"\u300c\u52dd\u3066\u306a\u3044\u3068\u601d\u3046\u306a\u3001\u6b7b\u306c\u6c17\u3067\u6226\u3048\u3070\u7121\u7406\u3068\u306f\u8a00\u3048\u306a\u3044\u300d\u2015\u300c\u9ed2\u306e\u4e2d\u968a\u300d\u306e\u30c7\u30b9\u30ed\u30fc\u30c9","artist":"Jim
+        Nelson","collectible":true,"playerClass":"Warrior","howToGet":"\u30ca\u30af\u30b9\u30e9\u30fc\u30de\u30b9\u30fb\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc\u306e\u300c\u4eba\u9020\u533a\u753b\u300d\u3067\u5165\u624b\u3002","howToGetGold":"\u30ca\u30af\u30b9\u30e9\u30fc\u30de\u30b9\u30fb\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc\u306e\u300c\u4eba\u9020\u533a\u753b\u300d\u3067\u4f5c\u6210\u53ef\u80fd\u306b\u306a\u308b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/FP1_021.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/FP1_021_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"CS2_097","name":"\u30c8\u30a5\u30eb\u30fc\u30b7\u30eb\u30d0\u30fc\u30fb\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":4,"attack":4,"durability":2,"text":"\u81ea\u5206\u306e\u30d2\u30fc\u30ed\u30fc\u304c\u653b\u6483\u3059\u308b\u5ea6\u306b\u3001\u81ea\u5206\u306e\u30d2\u30fc\u30ed\u30fc\u306e\u4f53\u529b\u30922\u56de\u5fa9\u3059\u308b\u3002","flavor":"\u3053\u308c\u4e00\u3064\u3067\u30b9\u30e9\u30a4\u30b9\u3082\u307f\u3058\u3093\u5207\u308a\u3082\u81ea\u7531\u81ea\u5728\u3002\u7f36\u306e\u30d5\u30bf\u3060\u3063\u3066\u958b\u3051\u3089\u308c\u3061\u3083\u3044\u307e\u3059\uff01\u4eca\u3059\u3050\u304a\u96fb\u8a71\u4e0b\u3055\u3044\uff01","artist":"Ryan
+        Sook","collectible":true,"playerClass":"Paladin","howToGet":"\u30ec\u30d9\u30eb2\u3067\u5165\u624b\u3002","howToGetGold":"\u30ec\u30d9\u30eb40\u3067\u5165\u624b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_097.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_097_premium.gif","locale":"jaJP"},{"cardId":"AT_034","name":"\u6bd2\u4ed5\u8fbc\u307f\u306e\u5203","cardSet":"The
+        Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":1,"durability":3,"text":"\u81ea\u5206\u306e\n\u30d2\u30fc\u30ed\u30fc\u30d1\u30ef\u30fc\u306f\n\u3053\u306e\u6b66\u5668\u3068\u7f6e\u304d\u63db\u308f\u308b\n\u4ee3\u308f\u308a\u306b\u3001\u3053\u306e\u6b66\u5668\u306b\n\u653b\u6483\u529b+1\u3092\u4ed8\u4e0e\u3059\u308b\u3002","flavor":"\u5203\u306b\u306f\u3069\u308c\u3060\u3051\u306e\u6bd2\u3092\u4ed5\u8fbc\u3081\u308b\u304b\uff1f\u7b54\u3048\u306f\u3001\u30e4\u30d0\u30a4\u304f\u3089\u3044\u3001\u30c9\u30af\u307e\u3067\u3082\u3002","artist":"Nutthapon
+        Petchthai","collectible":true,"playerClass":"Rogue","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_034.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_034_premium.gif","locale":"jaJP"},{"cardId":"AT_050","name":"\u96f7\u96fb\u306e\u939a","cardSet":"The
+        Grand Tournament","type":"Weapon","rarity":"Epic","cost":4,"attack":2,"durability":4,"text":"<b>\u65ad\u672b\u9b54:</b>
+        \u81ea\u5206\u306e\n\u30d2\u30fc\u30ed\u30fc\u30d1\u30ef\u30fc\u304c\n\u300c2\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u300d\u306b\u5909\u5316\u3059\u308b\u3002","flavor":"\u76f8\u5fdc\u3057\u304d\u8005\u3067\u3042\u3089\u3070\u8ab0\u3068\u3066\u3001\u305d\u306e\u529b\u304c\u4e0e\u3048\u3089\u308c\u3093\u3002","artist":"Peet
+        Cooper","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_050.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_050_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"CS2_080","name":"\u30a2\u30b5\u30b7\u30f3\u30d6\u30ec\u30fc\u30c9","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":3,"durability":4,"flavor":"\u5b9f\u969b\u306b\u6709\u540d\u306a\u30a2\u30b5\u30b7\u30f3\u304c\u4f7f\u7528\u3057\u3066\u3044\u305f\u672c\u7269\u3067\u3059\u3002\u9451\u5b9a\u66f8\u4ed8\u304d\u3002","artist":"Brian
+        Huang","collectible":true,"playerClass":"Rogue","howToGet":"\u30ec\u30d9\u30eb2\u3067\u5165\u624b\u3002","howToGetGold":"\u30ec\u30d9\u30eb32\u3067\u5165\u624b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_080.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_080_premium.gif","locale":"jaJP"},{"cardId":"EX1_383t","name":"\u30a2\u30c3\u30b7\u30e5\u30d6\u30ea\u30f3\u30ac\u30fc","cardSet":"Classic","type":"Weapon","rarity":"Legendary","cost":5,"attack":5,"durability":3,"playerClass":"Paladin","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_383t.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_383t_premium.gif","locale":"jaJP"},{"cardId":"CS2_112","name":"\u30a2\u30eb\u30ab\u30ca\u30a4\u30c8\u30fb\u30ea\u30fc\u30d1\u30fc","cardSet":"Basic","type":"Weapon","faction":"Neutral","rarity":"Free","cost":5,"attack":5,"durability":2,"flavor":"\u3044\u3084\u2026\u300c\u9752\u3044\u7261\u8823\u306e\u6559\u56e3\u300d\u304c\u4f55\u3066\u8a00\u304a\u3046\u3068\u3001\u6b7b\u795e\u306f\u754f\u308c\u308b\u3079\u304d\u3060\u308d\u3002","artist":"Stefan
+        Kopinski","collectible":true,"playerClass":"Warrior","howToGet":"\u30ec\u30d9\u30eb10\u3067\u5165\u624b\u3002","howToGetGold":"\u30ec\u30d9\u30eb51\u3067\u5165\u624b\u3002","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CS2_112.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CS2_112_premium.gif","locale":"jaJP"},{"cardId":"EX1_567","name":"\u30c9\u30a5\u30fc\u30e0\u30cf\u30f3\u30de\u30fc","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":5,"attack":2,"durability":8,"text":"<b>\u75be\u98a8</b>\n<b>\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9:</b>\n\uff082\uff09","flavor":"\u30aa\u30fc\u30b0\u30ea\u30e0\u30fb\u30c9\u30a5\u30fc\u30e0\u30cf\u30f3\u30de\u30fc\u304c\u30b9\u30ed\u30fc\u30eb\u306b\u6e21\u3057\u305f\u3001\u4f1d\u8aac\u306e\u6b66\u5668\u3060\u3002\u540d\u524d\u304c\u540c\u3058\u306a\u306e\u306f\u3059\u3054\u3044\u5076\u7136\u3060\u306a\u3002","artist":"John
+        Polidora","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_567.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_567_premium.gif","locale":"jaJP","mechanics":[{"name":"\u75be\u98a8"},{"name":"\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9"}]},{"cardId":"OG_033","name":"\u6226\u95d8\u7528\u89e6\u624b","cardSet":"Whispers
+        of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":2,"durability":2,"text":"<b>\u65ad\u672b\u9b54:</b>
+        \n\u3053\u306e\u30ab\u30fc\u30c9\u3092\n\u81ea\u5206\u306e\u624b\u672d\u306b\u623b\u3059\u3002","flavor":"\u305d\u306e\u901a\u308a\u3002\u30ac\u30ed\u30c3\u30b7\u30e5\u306f\u305f\u3063\u305f\u4eca\u3042\u3093\u305f\u3092\u6bb4\u308a\u6bba\u3057\u305f\u3093\u3060\u3001\u89e6\u624b\u3067\u3002","artist":"Alex
+        Konstad","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_033.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_033_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"OG_031","name":"\u9ec4\u660f\u306e\u939a","cardSet":"Whispers
+        of the Old Gods","type":"Weapon","rarity":"Epic","cost":5,"attack":4,"durability":2,"text":"<b>\u65ad\u672b\u9b54:</b>
+        4/2\u306e\n\u30a8\u30ec\u30e1\u30f3\u30bf\u30eb\u3092\n1\u4f53\u53ec\u559a\u3059\u308b\u3002
+        ","flavor":"\u3055\u3059\u304c\u9ec4\u660f\u306e\u939a\uff01\u5e73\u4fe1\u8005\u306b\u3067\u304d\u306a\u3044\u7cbe\u970a\u3078\u306e\u8d85\u8d8a\u3092\u5e73\u7136\u3068\u3084\u3063\u3066\u306e\u3051\u308b\u30c3\uff01\u305d\u3053\u306b\u30b7\u30d3\u308c\u308b\uff01\u305f\u305d\u304c\u308c\u308b\u30a5\uff01","artist":"James
+        Ryman","collectible":true,"playerClass":"Shaman","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/OG_031.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/OG_031_premium.gif","locale":"jaJP","mechanics":[{"name":"\u65ad\u672b\u9b54"}]},{"cardId":"TU4e_007","name":"\u30c7\u30e5\u30a2\u30eb\u30fb\u30a6\u30a9\u30fc\u30b0\u30ec\u30a4\u30f4","cardSet":"Missions","type":"Weapon","rarity":"Common","cost":6,"attack":4,"durability":2,"img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TU4e_007.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TU4e_007_premium.gif","locale":"jaJP"},{"cardId":"EX1_411","name":"\u30b4\u30a2\u30cf\u30a6\u30eb","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":7,"durability":1,"text":"\u30df\u30cb\u30aa\u30f3\u3092\u653b\u6483\u3059\u308b\u969b\u3001\u8010\u4e45\u5ea6\u306e\u4ee3\u308f\u308a\u306b\u653b\u6483\u529b\u3092\n1\u6d88\u8017\u3059\u308b\u3002","flavor":"\u304b\u306e\u30b0\u30ed\u30de\u30c3\u30b7\u30e5\u30fb\u30d8\u30eb\u30b9\u30af\u30ea\u30fc\u30e0\u304c\u611b\u7528\u3057\u3066\u3044\u305f\u6226\u65a7\u3060\u3002\u3069\u3046\u3044\u3046\u308f\u3051\u304b\u3001\u30de\u30eb\u30b7\u30a7\u30b6\u30fc\u30eb\u516c\u7235\u306e\u30b3\u30ec\u30af\u30b7\u30e7\u30f3\u306b\u306a\u3063\u3066\u305f\u3089\u3057\u3044\u3002\u6b74\u53f2\u306e\u30df\u30b9\u30c6\u30ea\u30fc\u3060\u306a\uff01","artist":"Zoltan
+        & Gabor","collectible":true,"playerClass":"Warrior","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_411.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_411_premium.gif","locale":"jaJP"},{"cardId":"DS1_188","name":"\u5263\u95d8\u58eb\u306e\u9577\u5f13","cardSet":"Classic","type":"Weapon","faction":"Neutral","rarity":"Epic","cost":7,"attack":5,"durability":2,"text":"\u81ea\u5206\u306e\u30d2\u30fc\u30ed\u30fc\u306f\u3001\u653b\u6483\u3059\u308b\u969b\u306b<b>\u7121\u6575</b>\u3092\u5f97\u308b\u3002","flavor":"\u9577\u5f13\u306e\u77e2\u306f\u306f\u308b\u304b\u9060\u304f\u307e\u3067\u5c04\u629c\u3051\u308b\u306e\u3067\u3001\u7279\u306b\u30cb\u30aa\u30a4\u306e\u304d\u3064\u3044\u6a19\u7684\u3092\u5c04\u308b\u6642\u306b\u4fbf\u5229\u3060\u3002","artist":"Peter
+        C. Lee","collectible":true,"playerClass":"Hunter","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DS1_188.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DS1_188_premium.gif","locale":"jaJP"}]'
+    http_version: 
+  recorded_at: Thu, 05 May 2016 14:29:05 GMT
+recorded_with: VCR 2.9.3
