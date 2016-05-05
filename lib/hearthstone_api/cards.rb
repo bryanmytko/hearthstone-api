@@ -19,5 +19,9 @@ module HearthstoneApi
     def self.sets(set, options = {})
       get "/cards/sets/#{set.capitalize_all}", options
     end
+
+    def self.races(race, options = {})
+      get "/cards/races/#{race.capitalize_all}", options
+    end
   end
 end
