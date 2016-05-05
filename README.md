@@ -124,6 +124,23 @@ HearthstoneApi::Cards.sets("Blackrock Mountain")
       [...]
 ```
 
+#### Races
+_Mrglglrglglglglglglgl!_
+
+```ruby
+HearthstoneApi::Cards.races("Murloc")
+
+=> [{"cardId"=>"PRO_001at",
+      "name"=>"Murloc",
+      "cardSet"=>"Promotion",
+      "type"=>"Minion",
+      "cost"=>0,
+      "attack"=>1,
+      "health"=>1,
+      "race"=>"Murloc",
+      [...]
+```
+
 #### Card Backs
 
 ```ruby
