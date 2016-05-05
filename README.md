@@ -33,6 +33,9 @@ Create a .env file and add your [API Key](https://market.mashape.com/omgvamp/hea
 All endpoints available via [hearthstoneapi.com](http://hearthstoneapi.com)
 **[Currently incomplete]**
 
+[All Cards](#All-Cards)
+[Class Cards](#Class-Cards)
+
 Examples:
 
 #### All Cards
