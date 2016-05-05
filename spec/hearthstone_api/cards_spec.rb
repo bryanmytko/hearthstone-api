@@ -82,4 +82,23 @@ describe HearthstoneApi::Cards do
       end
     end
   end
+
+  describe "type of card" do
+    let(:type) { "Weapon" }
+    let(:locale) { "jaJP" }
+
+    it "returns cards by type" do
+      VCR.use_cassette("hearthstone_api/cards/type") do
+        query = cards.type(type, locale: locale)
+        expect(query.first["type"]).to eq(type)
+      end
+    end
+
+    it "accepts options" do
+      VCR.use_cassette("hearthstone_api/cards/type/options") do
+        query = cards.type(type, locale: locale)
+        expect(query.first["locale"]).to eq(locale)
+      end
+    end
+  end
 end
