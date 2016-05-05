@@ -31,11 +31,18 @@ Create a .env file and add your [API Key](https://market.mashape.com/omgvamp/hea
 ## Endpoints
 
 All endpoints available via [hearthstoneapi.com](http://hearthstoneapi.com)
-**[Currently incomplete]**
 
 1. [All Cards](#all-cards)
+1. [Single Card](#single-card)
 1. [Class Cards](#class-cards)
-
+1. [Types](#types)
+1. [Sets](#sets)
+1. [Races](#races)
+1. [Qualities](#qualities)
+1. [Factions](#factions)
+1. [Search](#search)
+1. [Card Backs](#card-backs)
+1. [Info](#info)
 
 Examples:
 
@@ -46,31 +53,16 @@ _N.B. Cards come back organized by the set they belong to_
 HearthstoneApi::Card.all(attack: 12)
 
 => {"Basic"=>[],
-  "Classic"=>
-    [{"cardId"=>"NEW1_030",
-      "name"=>"Deathwing",
-      "cardSet"=>"Classic",
-      "type"=>"Minion",
-      "rarity"=>"Legendary",
-      "cost"=>10,
-      "attack"=>12,
-      "health"=>12,
-      [...]
-```
-
-#### Class Cards
-
-```ruby
-HearthstoneApi::Card.classes("Paladin", cost: 2)
-
-=> [{"cardId"=>"OG_311",
-      "name"=>"A Light in the Darkness",
-      "cardSet"=>"Whispers of the Old Gods",
-      "type"=>"Spell",
-      "rarity"=>"Common",
-      "cost"=>2,
-      "text"=>"<b>Discover</b> a minion.\nGive it +1/+1.",
-      [...]
+    "Classic"=>
+      [{"cardId"=>"NEW1_030",
+        "name"=>"Deathwing",
+        "cardSet"=>"Classic",
+        "type"=>"Minion",
+        "rarity"=>"Legendary",
+        "cost"=>10,
+        "attack"=>12,
+        "health"=>12,
+        [...]
 ```
 
 #### Single Card
@@ -97,6 +89,21 @@ HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
       "faction"=>"Neutral",
       "rarity"=>"Legendary",
       "cost"=>9,
+      [...]
+```
+
+#### Class Cards
+
+```ruby
+HearthstoneApi::Card.classes("Paladin", cost: 2)
+
+=> [{"cardId"=>"OG_311",
+      "name"=>"A Light in the Darkness",
+      "cardSet"=>"Whispers of the Old Gods",
+      "type"=>"Spell",
+      "rarity"=>"Common",
+      "cost"=>2,
+      "text"=>"<b>Discover</b> a minion.\nGive it +1/+1.",
       [...]
 ```
 
