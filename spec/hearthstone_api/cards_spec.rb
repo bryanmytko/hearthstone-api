@@ -171,9 +171,21 @@ describe HearthstoneApi::Cards do
     end
 
     it "accepts options" do
-      VCR.use_cassette("hearthstone_api/cars/faction/options") do
+      VCR.use_cassette("hearthstone_api/cards/faction/options") do
         query = cards.factions(faction, locale: locale)
         expect(query.first["locale"]).to eq(locale)
+      end
+    end
+  end
+
+  describe "search" do
+    let(:search_term) { "Onyxia" }
+    let(:locale) { "jaJP" }
+
+    it "returns cards by partial search" do
+      VCR.use_cassette("hearthstone_api/cards/search") do
+        query = cards.search(search_term.slice(0...4))
+        expect(query.first["name"]).to eq(search_term)
       end
     end
   end
