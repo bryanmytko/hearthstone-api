@@ -178,6 +178,8 @@ HearthstoneApi::Cards.factions("Horde")
 #### Search
 _Returns cards by partial name_
 
+** Note: While the official documentation says the search API can accept a locale parameter, it currently breaks the request. Because of this the gem's search API only accepts a search string with no option parameters**
+
 ```ruby
 HearthstoneApi::Cards.search("Onyx")
 
