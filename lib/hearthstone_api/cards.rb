@@ -9,15 +9,15 @@ module HearthstoneApi
     end
 
     def self.classes(klass, options = {})
-      get "/cards/classes/#{klass.capitalize}", options
+      get "/cards/classes/#{klass.capitalize_all}", options
     end
 
     def self.type(type, options = {})
-      get "/cards/types/#{type.capitalize}", options
+      get "/cards/types/#{type.capitalize_all}", options
     end
 
     def self.sets(set, options = {})
-      get "/cards/sets/#{set.capitalize}", options
+      get "/cards/sets/#{set.capitalize_all}", options
     end
   end
 end
