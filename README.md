@@ -115,6 +115,13 @@ HearthstoneApi::Cards.type("Weapon")
 
 ```ruby
 HearthstoneApi::Cards.sets("Blackrock Mountain")
+
+=> [{"cardId"=>"BRMA16_1",
+      "name"=>"Atramedes",
+      "cardSet"=>"Blackrock Mountain",
+      "type"=>"Hero",
+      "health"=>30,
+      [...]
 ```
 
 #### Card Backs
