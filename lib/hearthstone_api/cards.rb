@@ -27,5 +27,9 @@ module HearthstoneApi
     def self.qualities(quality, options = {})
       get "/cards/qualities/#{quality.capitalize_all}", options
     end
+
+    def self.factions(faction, options = {})
+      get "/cards/factions/#{faction.capitalize_all}", options
+    end
   end
 end
