@@ -139,4 +139,23 @@ describe HearthstoneApi::Cards do
       end
     end
   end
+
+  describe "cards by quality" do
+    let(:quality) { "Legendary" }
+    let(:locale) { "jaJP" }
+
+    it "returns cards by quality" do
+      VCR.use_cassette("hearthstone_api/cards/quality") do
+        query = cards.qualities(quality, locale: locale)
+        expect(query.first["rarity"]).to eq(quality)
+      end
+    end
+
+    it "accepts options" do
+      VCR.use_cassette("hearthstone_api/cards/quality/options") do
+        query = cards.qualities(quality, locale: locale)
+        expect(query.first["locale"]).to eq(locale)
+      end
+    end
+  end
 end
