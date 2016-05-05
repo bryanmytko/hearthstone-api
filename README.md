@@ -254,4 +254,4 @@ HearthstoneApi::Info.all
 ## Development
 
     gem build hearthstone_api.gemspec
-    gem install ./hearthstone_api-0.0.1.gem
+    gem install ./hearthstone_api-1.0.2.gem
