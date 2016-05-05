@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Bryan Mytko"]
   spec.email         = ["bryanmytko@gmail.com"]
   spec.summary       = %q{API Wrapper for hearthstoneapi.com}
-  spec.description   = %q{hearthstoneapi.com}
+  spec.description   = <<-EOF
+    A wrapper for the Hearthstone API found at hearthstoneapi.com
+  EOF
   spec.homepage      = "https://github.com/bryanmytko/hearthstone_api"
-  spec.documentation = "https://github.com/bryanmytko/hearthstone_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
