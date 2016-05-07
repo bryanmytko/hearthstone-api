@@ -144,4 +144,53 @@ http_interactions:
         been a giveaway.","artist":"Dany Orizio","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_562.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_562_premium.gif","locale":"enUS","mechanics":[{"name":"Battlecry"}]}]'
     http_version: 
   recorded_at: Thu, 05 May 2016 17:29:15 GMT
+- request:
+    method: get
+    uri: https://omgvamp-hearthstone-v1.p.mashape.com/cards/search/Yser
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Mashape-Key:
+      - DoDCP9IGmDmsh0Uy8eEE3sP90fLIp1ufwa2jsnymHi6MOLR9Rk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 07 May 2016 23:05:57 GMT
+      Expires:
+      - "-1"
+      Pragma:
+      - no-cache
+      Server:
+      - Mashape/5.0.6
+      Set-Cookie:
+      - XSRF-TOKEN=eyJpdiI6Im1UXC9pVmo5MEZveXR4UXY5VzJTSmZBPT0iLCJ2YWx1ZSI6IkJEeUZJbkVVXC9kaFJ4ckNXQXV6d2lVN0VQRTR4eXRjRXFOczRCTkZwTzIycEJ1UWZsTjhpb0w3U1dVVk9BQW5GWEwzVjkrbkJ2TStQQjVGS3h3Yk1ZUT09IiwibWFjIjoiZGU2YmEwZjVjNDk3MDU5YWU0Njk3MGU0ZmEyNzlmNDU5YjZkZjAxNmFjM2NlNGY4ZTU2ZjU1MmM2MTVjNjU1NSJ9;
+        expires=Sun, 08-May-2016 01:05:57 GMT; Max-Age=7200; path=/
+      - laravel_session=eyJpdiI6ImVLenVvaTJzd3hKMzlENkpBNkZOdWc9PSIsInZhbHVlIjoiR09xclwvemRadXF3V3NhdjBKVjh4RUlcL2JpWEM5dkNZcE5xMFFFamRCNVZVUUVqbHM5cFwvZ3FGUUJGWE9kdUxVWTJLTHp3NUtjV2tWa2FtanZVdk1PUWc9PSIsIm1hYyI6IjRiNTQ1NTE3Nzg1N2FkZDJkNjUxYWJiODFmMzA0YThmNmE2ZjNjNTBiMjMwMWZkZjc4OWNiNzQ4ZTY3MDIzYTYifQ%3D%3D;
+        expires=Sun, 08-May-2016 01:05:57 GMT; Max-Age=7200; path=/; httponly
+      X-Powered-By:
+      - PHP/5.6.13
+      Content-Length:
+      - '1298'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"cardId":"LOEA16_15","name":"Ysera''s Tear","cardSet":"The League
+        of Explorers","type":"Spell","cost":0,"text":"Gain 4 Mana Crystals this turn
+        only.","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOEA16_15.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOEA16_15_premium.gif","locale":"enUS"},{"cardId":"DREAM_02","name":"Ysera
+        Awakens","cardSet":"Classic","type":"Spell","cost":2,"text":"Deal $5 damage
+        to all characters except Ysera.","playerClass":"Dream","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DREAM_02.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DREAM_02_premium.gif","locale":"enUS"},{"cardId":"EX1_572","name":"Ysera","cardSet":"Classic","type":"Minion","faction":"Neutral","rarity":"Legendary","cost":9,"attack":4,"health":12,"text":"At
+        the end of your turn, add a Dream Card to your hand.","flavor":"Ysera rules
+        the Emerald Dream.  Which is some kind of green-mirror-version of the real
+        world, or something?","artist":"Gabor Szikszai","collectible":true,"elite":true,"race":"Dragon","img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_572.png","imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_572_premium.gif","locale":"enUS"}]'
+    http_version: 
+  recorded_at: Sat, 07 May 2016 23:06:02 GMT
 recorded_with: VCR 2.9.3
