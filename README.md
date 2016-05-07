@@ -198,6 +198,15 @@ HearthstoneApi::Cards.search("Onyx")
       "type"=>"Hero",
       "health"=>15,
       [...]
+
+HearthstoneApi::Cards.search("イセラ", locale: "jaJP")
+
+=> [{"cardId"=>"LOEA16_15",
+      "name"=>"イセラの涙",
+      "cardSet"=>"The League of Explorers",
+      "type"=>"Spell",
+      "cost"=>0,
+      "text"=>"このターンの間のみ、マナクリスタル\nを4つ獲得する。",
 ```
 
 #### Card Backs
