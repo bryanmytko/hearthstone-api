@@ -179,13 +179,29 @@ describe HearthstoneApi::Cards do
   end
 
   describe "search" do
-    let(:search_term) { "Onyxia" }
+    let(:search_term) { "Ysera" }
+    let(:locale_search_term) { "イセラ" }
     let(:locale) { "jaJP" }
 
     it "returns cards by partial search" do
       VCR.use_cassette("hearthstone_api/cards/search") do
         query = cards.search(search_term.slice(0...4))
-        expect(query.first["name"]).to eq(search_term)
+        expect(query.first["name"]).to include(search_term)
+      end
+    end
+
+    it "accepts options" do
+      VCR.use_cassette("hearthstone_api/cards/search/options") do
+        query = cards.search(locale_search_term, locale: locale)
+        expect(query.first["locale"]).to eq(locale)
+      end
+    end
+
+    it "searches other languages in that language" do
+      VCR.use_cassette("hearthstone_api/cards/search/locale") do
+        query = cards.search(locale_search_term, locale: locale)
+        expect(query.first["name"]).to include(locale_search_term)
+        expect(query.first["name"]).to_not include(search_term)
       end
     end
   end
