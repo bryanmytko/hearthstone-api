@@ -32,8 +32,8 @@ module HearthstoneApi
       get "/cards/factions/#{faction.capitalize_all}", options
     end
 
-    def self.search(search_term)
-      get "/cards/search/#{search_term}"
+    def self.search(search_term, options = {})
+      get "/cards/search/#{search_term}", options
     end
   end
 end
