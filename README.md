@@ -52,7 +52,7 @@ Examples:
 _N.B. Cards come back organized by the set they belong to_
 
 ```ruby
-HearthstoneApi::Card.all(attack: 12)
+HearthstoneApi::Cards.all(attack: 12)
 
 => {"Basic"=>[],
     "Classic"=>
@@ -71,7 +71,7 @@ HearthstoneApi::Card.all(attack: 12)
 _This endpoint accepts name or card ID_
 
 ```ruby
-HearthstoneApi::Card.single("Ysera", locale: "jaJP")
+HearthstoneApi::Cards.single("Ysera", locale: "jaJP")
 
 => [{"cardId"=>"EX1_572",
       "name"=>"イセラ",
@@ -82,7 +82,7 @@ HearthstoneApi::Card.single("Ysera", locale: "jaJP")
       "cost"=>9,
       [...]
 
-HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
+HearthstoneApi::Cards.single("EX1_572", locale: "jaJP")
 
 => [{"cardId"=>"EX1_572",
       "name"=>"イセラ",
@@ -97,7 +97,7 @@ HearthstoneApi::Card.single("EX1_572", locale: "jaJP")
 #### Class Cards
 
 ```ruby
-HearthstoneApi::Card.classes("Paladin", cost: 2)
+HearthstoneApi::Cards.classes("Paladin", cost: 2)
 
 => [{"cardId"=>"OG_311",
       "name"=>"A Light in the Darkness",
