@@ -1,4 +1,4 @@
-![logo](http://i.imgur.com/GisaPGO.png)
+![logo](http://us.battle.net/hearthstone/static/images/one-night-in-karazhan/en-us/logo.png)
 
 # HearthstoneApi
 
